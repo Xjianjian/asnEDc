@@ -1,0 +1,159 @@
+make[6]: Entering directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-42'
+/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/asn1c		\
+		-S /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons	\
+		-Wdebug-compiler		\
+		 /home/intest/hozon/asnEDc/asn1c-0.9.28/tests/42-real-life-OK.asn1
+DEBUG: Compiling LogLine at line 23
+DEBUG: Compiling line-digest at line 23
+DEBUG: Compiling varsets at line 25
+DEBUG: Compiling ... at line 23
+DEBUG: member constraint checking code for varsets
+DEBUG: Compiling VariablePartSet at line 33
+DEBUG: Compiling vparts at line 33
+DEBUG: Compiling resolution at line 35
+DEBUG: Compiling ... at line 33
+DEBUG: member constraint checking code for vparts
+DEBUG: Compiling VariablePart at line 42
+DEBUG: Compiling vset at line 42
+DEBUG: Compiling vrange at line 45
+DEBUG: Compiling from at line 45
+DEBUG: Compiling to at line 46
+DEBUG: Compiling ... at line 45
+DEBUG: Compiling ... at line 42
+DEBUG: member constraint checking code for vset
+DEBUG: fail to fetch tags for VariablePart
+DEBUG: Compiling ActionItem at line 59
+DEBUG: Compiling accept-as at line 55
+DEBUG: expr constraint checking code for accept_as
+DEBUG: emit tag vectors for accept-as 0, 1, 1
+DEBUG: Compiling notify at line 61
+DEBUG: Compiling critical at line 61
+DEBUG: Compiling email at line 62
+DEBUG: Compiling ... at line 64
+DEBUG: Compiling ... at line 59
+DEBUG: Saving compiled data
+Compiled LogLine.c
+Compiled LogLine.h
+Compiled VariablePartSet.c
+Compiled VariablePartSet.h
+Compiled VariablePart.c
+Compiled VariablePart.h
+Compiled ActionItem.c
+Compiled ActionItem.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BOOLEAN.h	-> BOOLEAN.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BOOLEAN.c	-> BOOLEAN.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/INTEGER.h	-> INTEGER.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeEnumerated.h	-> NativeEnumerated.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/IA5String.h	-> IA5String.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/IA5String.c	-> IA5String.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/INTEGER.c	-> INTEGER.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeEnumerated.c	-> NativeEnumerated.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeInteger.h	-> NativeInteger.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeInteger.c	-> NativeInteger.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/VisibleString.h	-> VisibleString.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/VisibleString.c	-> VisibleString.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SEQUENCE_OF.h	-> asn_SEQUENCE_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SEQUENCE_OF.c	-> asn_SEQUENCE_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SET_OF.h	-> asn_SET_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SET_OF.c	-> asn_SET_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_CHOICE.h	-> constr_CHOICE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_CHOICE.c	-> constr_CHOICE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE.h	-> constr_SEQUENCE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE.c	-> constr_SEQUENCE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE_OF.h	-> constr_SEQUENCE_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE_OF.c	-> constr_SEQUENCE_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SET_OF.h	-> constr_SET_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SET_OF.c	-> constr_SET_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_application.h	-> asn_application.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_system.h	-> asn_system.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs.h	-> asn_codecs.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_internal.h	-> asn_internal.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.h	-> OCTET_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.c	-> OCTET_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.h	-> BIT_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.c	-> BIT_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.c	-> asn_codecs_prim.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.h	-> asn_codecs_prim.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.h	-> ber_tlv_length.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.c	-> ber_tlv_length.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.h	-> ber_tlv_tag.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.c	-> ber_tlv_tag.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.h	-> ber_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.c	-> ber_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.h	-> der_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.c	-> der_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.h	-> constr_TYPE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.c	-> constr_TYPE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.h	-> constraints.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.c	-> constraints.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.h	-> xer_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.c	-> xer_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.h	-> xer_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.c	-> xer_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.h	-> xer_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.c	-> xer_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.h	-> per_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.c	-> per_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.h	-> per_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.c	-> per_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.h	-> per_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.c	-> per_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.h	-> per_opentype.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.c	-> per_opentype.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/converter-sample.c	-> converter-sample.c
+Generated Makefile.am.sample
+rm -f converter-sample.c
+gcc -DSRCDIR=../. -I. -std=gnu99 -Wno-error=unused-variable -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=cast-align -g -O0 -o check-executable *.c* -lm
+./check-executable
+LogLine ::= {
+    line-digest: zzz
+    varsets: varsets ::= {
+        VariablePartSet ::= {
+            vparts: vparts ::= {
+                vset ::= {
+                    123
+                }
+            }
+            resolution: ActionItem ::= {
+                accept-as: 0
+            }
+        }
+    }
+}
+Encoded in 26 bytes
+
+48 24 22 4 122 122 122 7 48 16 48 14 48 7 49 5 26 3 49 50 51 48 3 10 1 0 
+
+Buf 0x629160 (26)
+Returned code 0, consumed 26
+LogLine ::= {
+    line-digest: zzz
+    varsets: varsets ::= {
+        VariablePartSet ::= {
+            vparts: vparts ::= {
+                vset ::= {
+                    123
+                }
+            }
+            resolution: ActionItem ::= {
+                accept-as: 0
+            }
+        }
+    }
+}
+Buf 0x629180 (21)
+Returned code 0, consumed 21
+LogLine ::= {
+    line-digest: static
+    varsets: varsets ::= {
+        VariablePartSet ::= {
+            vparts: vparts ::= {
+            }
+            resolution: ActionItem ::= {
+                accept-as: 0
+            }
+        }
+    }
+}
+make[6]: Leaving directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-42'
+PASS check-src/check-42.c (exit status: 0)

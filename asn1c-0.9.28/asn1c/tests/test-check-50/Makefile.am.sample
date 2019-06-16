@@ -1,0 +1,154 @@
+ASN_MODULE_SOURCES=	\
+	Int1.c	\
+	Int2.c	\
+	Int3.c	\
+	Int4.c	\
+	Int5.c	\
+	ExtensibleExtensions.c	\
+	Str1.c	\
+	Str2.c	\
+	Str3.c	\
+	Str4.c	\
+	PER-Visible.c	\
+	PER-Visible-2.c	\
+	Not-PER-Visible-1.c	\
+	Not-PER-Visible-2.c	\
+	Not-PER-Visible-3.c	\
+	SIZE-but-not-FROM.c	\
+	SIZE-and-FROM.c	\
+	Neither-SIZE-nor-FROM.c	\
+	Utf8-4.c	\
+	Utf8-3.c	\
+	Utf8-2.c	\
+	Utf8-1.c	\
+	VisibleIdentifier.c	\
+	Sequence.c	\
+	SequenceOf.c	\
+	Enum0.c	\
+	Enum1.c	\
+	Identifier.c
+
+ASN_MODULE_HEADERS=	\
+	Int1.h	\
+	Int2.h	\
+	Int3.h	\
+	Int4.h	\
+	Int5.h	\
+	ExtensibleExtensions.h	\
+	Str1.h	\
+	Str2.h	\
+	Str3.h	\
+	Str4.h	\
+	PER-Visible.h	\
+	PER-Visible-2.h	\
+	Not-PER-Visible-1.h	\
+	Not-PER-Visible-2.h	\
+	Not-PER-Visible-3.h	\
+	SIZE-but-not-FROM.h	\
+	SIZE-and-FROM.h	\
+	Neither-SIZE-nor-FROM.h	\
+	Utf8-4.h	\
+	Utf8-3.h	\
+	Utf8-2.h	\
+	Utf8-1.h	\
+	VisibleIdentifier.h	\
+	Sequence.h	\
+	SequenceOf.h	\
+	Enum0.h	\
+	Enum1.h	\
+	Identifier.h
+
+ASN_MODULE_HEADERS+=UTF8String.h
+ASN_MODULE_HEADERS+=BOOLEAN.h
+ASN_MODULE_SOURCES+=BOOLEAN.c
+ASN_MODULE_HEADERS+=INTEGER.h
+ASN_MODULE_HEADERS+=NativeEnumerated.h
+ASN_MODULE_HEADERS+=IA5String.h
+ASN_MODULE_SOURCES+=IA5String.c
+ASN_MODULE_SOURCES+=INTEGER.c
+ASN_MODULE_HEADERS+=NULL.h
+ASN_MODULE_SOURCES+=NULL.c
+ASN_MODULE_SOURCES+=NativeEnumerated.c
+ASN_MODULE_HEADERS+=NativeInteger.h
+ASN_MODULE_SOURCES+=NativeInteger.c
+ASN_MODULE_SOURCES+=UTF8String.c
+ASN_MODULE_HEADERS+=VisibleString.h
+ASN_MODULE_SOURCES+=VisibleString.c
+ASN_MODULE_HEADERS+=asn_SEQUENCE_OF.h
+ASN_MODULE_SOURCES+=asn_SEQUENCE_OF.c
+ASN_MODULE_HEADERS+=asn_SET_OF.h
+ASN_MODULE_SOURCES+=asn_SET_OF.c
+ASN_MODULE_HEADERS+=constr_SEQUENCE.h
+ASN_MODULE_SOURCES+=constr_SEQUENCE.c
+ASN_MODULE_HEADERS+=constr_SEQUENCE_OF.h
+ASN_MODULE_SOURCES+=constr_SEQUENCE_OF.c
+ASN_MODULE_HEADERS+=constr_SET_OF.h
+ASN_MODULE_SOURCES+=constr_SET_OF.c
+ASN_MODULE_HEADERS+=asn_application.h
+ASN_MODULE_HEADERS+=asn_system.h
+ASN_MODULE_HEADERS+=asn_codecs.h
+ASN_MODULE_HEADERS+=asn_internal.h
+ASN_MODULE_HEADERS+=OCTET_STRING.h
+ASN_MODULE_SOURCES+=OCTET_STRING.c
+ASN_MODULE_HEADERS+=BIT_STRING.h
+ASN_MODULE_SOURCES+=BIT_STRING.c
+ASN_MODULE_SOURCES+=asn_codecs_prim.c
+ASN_MODULE_HEADERS+=asn_codecs_prim.h
+ASN_MODULE_HEADERS+=ber_tlv_length.h
+ASN_MODULE_SOURCES+=ber_tlv_length.c
+ASN_MODULE_HEADERS+=ber_tlv_tag.h
+ASN_MODULE_SOURCES+=ber_tlv_tag.c
+ASN_MODULE_HEADERS+=ber_decoder.h
+ASN_MODULE_SOURCES+=ber_decoder.c
+ASN_MODULE_HEADERS+=der_encoder.h
+ASN_MODULE_SOURCES+=der_encoder.c
+ASN_MODULE_HEADERS+=constr_TYPE.h
+ASN_MODULE_SOURCES+=constr_TYPE.c
+ASN_MODULE_HEADERS+=constraints.h
+ASN_MODULE_SOURCES+=constraints.c
+ASN_MODULE_HEADERS+=xer_support.h
+ASN_MODULE_SOURCES+=xer_support.c
+ASN_MODULE_HEADERS+=xer_decoder.h
+ASN_MODULE_SOURCES+=xer_decoder.c
+ASN_MODULE_HEADERS+=xer_encoder.h
+ASN_MODULE_SOURCES+=xer_encoder.c
+ASN_MODULE_HEADERS+=per_support.h
+ASN_MODULE_SOURCES+=per_support.c
+ASN_MODULE_HEADERS+=per_decoder.h
+ASN_MODULE_SOURCES+=per_decoder.c
+ASN_MODULE_HEADERS+=per_encoder.h
+ASN_MODULE_SOURCES+=per_encoder.c
+ASN_MODULE_HEADERS+=per_opentype.h
+ASN_MODULE_SOURCES+=per_opentype.c
+ASN_CONVERTER_SOURCES+=converter-sample.c
+
+
+lib_LTLIBRARIES=libsomething.la
+libsomething_la_SOURCES=$(ASN_MODULE_SOURCES) $(ASN_MODULE_HEADERS)
+
+# This file may be used as an input for make(3)
+# Remove the lines below to convert it into a pure .am file
+TARGET = progname
+CFLAGS += -I.
+OBJS=${ASN_MODULE_SOURCES:.c=.o} ${ASN_CONVERTER_SOURCES:.c=.o}
+
+all: $(TARGET)
+
+$(TARGET): ${OBJS}
+	$(CC) $(CFLAGS) -o $(TARGET) ${OBJS} $(LDFLAGS) $(LIBS)
+
+.SUFFIXES:
+.SUFFIXES: .c .o
+
+.c.o:
+	$(CC) $(CFLAGS) -o $@ -c $<
+
+clean:
+	rm -f $(TARGET)
+	rm -f $(OBJS)
+
+regen: regenerate-from-asn1-source
+
+regenerate-from-asn1-source:
+	/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/asn1c -S /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons -Wdebug-compiler /home/intest/hozon/asnEDc/asn1c-0.9.28/tests/50-constraint-OK.asn1
+

@@ -1,0 +1,72 @@
+make[6]: Entering directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-133.-gen-PER'
+/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/asn1c		\
+		-S /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons	\
+		-Wdebug-compiler		\
+		-gen-PER /home/intest/hozon/asnEDc/asn1c-0.9.28/tests/133-per-constraints-OK.asn1
+DEBUG: Compiling T at line 17
+DEBUG: Compiling first at line 17
+DEBUG: Compiling nothing at line 16
+DEBUG: member constraint checking code for nothing
+DEBUG: Compiling second at line 18
+DEBUG: Compiling ... at line 19
+DEBUG: Compiling third at line 20
+DEBUG: member constraint checking code for second
+DEBUG: member constraint checking code for third
+DEBUG: fail to fetch tags for T
+DEBUG: Saving compiled data
+Compiled T.c
+Compiled T.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/INTEGER.h	-> INTEGER.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeEnumerated.h	-> NativeEnumerated.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/INTEGER.c	-> INTEGER.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeEnumerated.c	-> NativeEnumerated.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeInteger.h	-> NativeInteger.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeInteger.c	-> NativeInteger.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_CHOICE.h	-> constr_CHOICE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_CHOICE.c	-> constr_CHOICE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_application.h	-> asn_application.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_system.h	-> asn_system.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs.h	-> asn_codecs.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_internal.h	-> asn_internal.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.h	-> OCTET_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.c	-> OCTET_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.h	-> BIT_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.c	-> BIT_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.c	-> asn_codecs_prim.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.h	-> asn_codecs_prim.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.h	-> ber_tlv_length.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.c	-> ber_tlv_length.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.h	-> ber_tlv_tag.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.c	-> ber_tlv_tag.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.h	-> ber_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.c	-> ber_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.h	-> der_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.c	-> der_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.h	-> constr_TYPE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.c	-> constr_TYPE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.h	-> constraints.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.c	-> constraints.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.h	-> xer_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.c	-> xer_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.h	-> xer_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.c	-> xer_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.h	-> xer_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.c	-> xer_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.h	-> per_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.c	-> per_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.h	-> per_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.c	-> per_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.h	-> per_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.c	-> per_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.h	-> per_opentype.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.c	-> per_opentype.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/converter-sample.c	-> converter-sample.c
+Generated Makefile.am.sample
+rm -f converter-sample.c
+gcc -DSRCDIR=../. -I. -std=gnu99 -Wno-error=unused-variable -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=cast-align -g -O0 -o check-executable *.c* -lm
+T.c:200:2: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  asn_MAP_T_cmap_1, /* Canonically sorted */
+  ^
+./check-executable
+make[6]: Leaving directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-133.-gen-PER'
+PASS check-src/check-133.-gen-PER.c (exit status: 0)

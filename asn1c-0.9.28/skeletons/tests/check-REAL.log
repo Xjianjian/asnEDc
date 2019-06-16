@@ -1,0 +1,674 @@
+361: Checking 0->["0"] against ["0"] (canonical follows...)
+361: Checking 0->["0"] against ["0"] (canonical)
+365: Checking -0->["-0"] against ["-0"] (canonical follows...)
+365: Checking -0->["-0"] against ["-0"] (canonical)
+373: Checking -0->["-0"] against ["-0"] (canonical follows...)
+373: Checking -0->["-0"] against ["-0"] (canonical)
+374: Checking -0->["-0"] against ["-0"] (canonical follows...)
+374: Checking -0->["-0"] against ["-0"] (canonical)
+375: Checking -0->["-0"] against ["-0"] (canonical follows...)
+375: Checking -0->["-0"] against ["-0"] (canonical)
+376: Checking -0->["-0"] against ["-0"] (canonical follows...)
+376: Checking -0->["-0"] against ["-0"] (canonical)
+382: Checking inf->["<PLUS-INFINITY/>"] against ["<PLUS-INFINITY/>"] (canonical follows...)
+382: Checking inf->["<PLUS-INFINITY/>"] against ["<PLUS-INFINITY/>"] (canonical)
+383: Checking -inf->["<MINUS-INFINITY/>"] against ["<MINUS-INFINITY/>"] (canonical follows...)
+383: Checking -inf->["<MINUS-INFINITY/>"] against ["<MINUS-INFINITY/>"] (canonical)
+384: Checking -nan->["<NOT-A-NUMBER/>"] against ["<NOT-A-NUMBER/>"] (canonical follows...)
+384: Checking -nan->["<NOT-A-NUMBER/>"] against ["<NOT-A-NUMBER/>"] (canonical)
+389: Checking 0->["0"] against ["0"] (canonical follows...)
+389: Checking 0->["0"] against ["0"] (canonical)
+392: Checking 0->["0"] against ["0"] (canonical follows...)
+392: Checking 0->["0"] against ["0"] (canonical)
+395: Checking 0->["0"] against ["0"] (canonical follows...)
+395: Checking 0->["0"] against ["0"] (canonical)
+398: Checking 0->["0"] against ["0"] (canonical follows...)
+398: Checking 0->["0"] against ["0"] (canonical)
+401: Checking 0->["0"] against ["0"] (canonical follows...)
+401: Checking 0->["0"] against ["0"] (canonical)
+404: Checking -0->["-0"] against ["-0"] (canonical follows...)
+404: Checking -0->["-0"] against ["-0"] (canonical)
+407: Checking -0->["-0"] against ["-0"] (canonical follows...)
+407: Checking -0->["-0"] against ["-0"] (canonical)
+411: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+411: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+414: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+414: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+417: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+417: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+420: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+420: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+423: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+423: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+426: Checking -1->["-1.0"] against ["-1.0"] (canonical follows...)
+426: Checking -1->["-1.0E0"] against ["-1.0E0"] (canonical)
+429: Checking -1->["-1.0"] against ["-1.0"] (canonical follows...)
+429: Checking -1->["-1.0E0"] against ["-1.0E0"] (canonical)
+440: Checking 0->["0"] against ["0"] (canonical follows...)
+440: Checking 0->["0"] against ["0"] (canonical)
+443: Checking 0->["0"] against ["0"] (canonical follows...)
+443: Checking 0->["0"] against ["0"] (canonical)
+446: Checking 0->["0"] against ["0"] (canonical follows...)
+446: Checking 0->["0"] against ["0"] (canonical)
+449: Checking 0->["0"] against ["0"] (canonical follows...)
+449: Checking 0->["0"] against ["0"] (canonical)
+452: Checking 0->["0"] against ["0"] (canonical follows...)
+452: Checking 0->["0"] against ["0"] (canonical)
+455: Checking -0->["-0"] against ["-0"] (canonical follows...)
+455: Checking -0->["-0"] against ["-0"] (canonical)
+458: Checking -0->["-0"] against ["-0"] (canonical follows...)
+458: Checking -0->["-0"] against ["-0"] (canonical)
+463: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+463: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+466: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+466: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+469: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+469: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+472: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+472: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+475: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+475: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+478: Checking -1->["-1.0"] against ["-1.0"] (canonical follows...)
+478: Checking -1->["-1.0E0"] against ["-1.0E0"] (canonical)
+481: Checking -1->["-1.0"] against ["-1.0"] (canonical follows...)
+481: Checking -1->["-1.0E0"] against ["-1.0E0"] (canonical)
+486: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+486: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+489: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+489: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+492: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+492: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+495: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+495: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+498: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+498: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+501: Checking -0.5->["-0.5"] against ["-0.5"] (canonical follows...)
+501: Checking -0.5->["-5.0E-1"] against ["-5.0E-1"] (canonical)
+504: Checking -0.5->["-0.5"] against ["-0.5"] (canonical follows...)
+504: Checking -0.5->["-5.0E-1"] against ["-5.0E-1"] (canonical)
+509: Checking 0->["0"] against ["0"] (canonical follows...)
+509: Checking 0->["0"] against ["0"] (canonical)
+512: Checking 0->["0"] against ["0"] (canonical follows...)
+512: Checking 0->["0"] against ["0"] (canonical)
+515: Checking 0->["0"] against ["0"] (canonical follows...)
+515: Checking 0->["0"] against ["0"] (canonical)
+518: Checking 0->["0"] against ["0"] (canonical follows...)
+518: Checking 0->["0"] against ["0"] (canonical)
+521: Checking 0->["0"] against ["0"] (canonical follows...)
+521: Checking 0->["0"] against ["0"] (canonical)
+524: Checking -0->["-0"] against ["-0"] (canonical follows...)
+524: Checking -0->["-0"] against ["-0"] (canonical)
+527: Checking -0->["-0"] against ["-0"] (canonical follows...)
+527: Checking -0->["-0"] against ["-0"] (canonical)
+532: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+532: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+535: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+535: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+538: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+538: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+541: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+541: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+544: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+544: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+547: Checking -0.5->["-0.5"] against ["-0.5"] (canonical follows...)
+547: Checking -0.5->["-5.0E-1"] against ["-5.0E-1"] (canonical)
+550: Checking -0.5->["-0.5"] against ["-0.5"] (canonical follows...)
+550: Checking -0.5->["-5.0E-1"] against ["-5.0E-1"] (canonical)
+555: Checking 5->["5.0"] against ["5.0"] (canonical follows...)
+555: Checking 5->["5.0E0"] against ["5.0E0"] (canonical)
+558: Checking 5->["5.0"] against ["5.0"] (canonical follows...)
+558: Checking 5->["5.0E0"] against ["5.0E0"] (canonical)
+561: Checking 5->["5.0"] against ["5.0"] (canonical follows...)
+561: Checking 5->["5.0E0"] against ["5.0E0"] (canonical)
+564: Checking 5->["5.0"] against ["5.0"] (canonical follows...)
+564: Checking 5->["5.0E0"] against ["5.0E0"] (canonical)
+567: Checking 5->["5.0"] against ["5.0"] (canonical follows...)
+567: Checking 5->["5.0E0"] against ["5.0E0"] (canonical)
+570: Checking -5->["-5.0"] against ["-5.0"] (canonical follows...)
+570: Checking -5->["-5.0E0"] against ["-5.0E0"] (canonical)
+573: Checking -5->["-5.0"] against ["-5.0"] (canonical follows...)
+573: Checking -5->["-5.0E0"] against ["-5.0E0"] (canonical)
+440: Checking 0->["0"] against ["0"] (canonical follows...)
+440: Checking 0->["0"] against ["0"] (canonical)
+443: Checking 0->["0"] against ["0"] (canonical follows...)
+443: Checking 0->["0"] against ["0"] (canonical)
+446: Checking 0->["0"] against ["0"] (canonical follows...)
+446: Checking 0->["0"] against ["0"] (canonical)
+449: Checking 0->["0"] against ["0"] (canonical follows...)
+449: Checking 0->["0"] against ["0"] (canonical)
+452: Checking 0->["0"] against ["0"] (canonical follows...)
+452: Checking 0->["0"] against ["0"] (canonical)
+455: Checking -0->["-0"] against ["-0"] (canonical follows...)
+455: Checking -0->["-0"] against ["-0"] (canonical)
+458: Checking -0->["-0"] against ["-0"] (canonical follows...)
+458: Checking -0->["-0"] against ["-0"] (canonical)
+463: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+463: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+466: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+466: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+469: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+469: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+472: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+472: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+475: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+475: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+478: Checking -1->["-1.0"] against ["-1.0"] (canonical follows...)
+478: Checking -1->["-1.0E0"] against ["-1.0E0"] (canonical)
+481: Checking -1->["-1.0"] against ["-1.0"] (canonical follows...)
+481: Checking -1->["-1.0E0"] against ["-1.0E0"] (canonical)
+486: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+486: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+489: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+489: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+492: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+492: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+495: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+495: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+498: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+498: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+501: Checking -0.5->["-0.5"] against ["-0.5"] (canonical follows...)
+501: Checking -0.5->["-5.0E-1"] against ["-5.0E-1"] (canonical)
+504: Checking -0.5->["-0.5"] against ["-0.5"] (canonical follows...)
+504: Checking -0.5->["-5.0E-1"] against ["-5.0E-1"] (canonical)
+509: Checking 0->["0"] against ["0"] (canonical follows...)
+509: Checking 0->["0"] against ["0"] (canonical)
+512: Checking 0->["0"] against ["0"] (canonical follows...)
+512: Checking 0->["0"] against ["0"] (canonical)
+515: Checking 0->["0"] against ["0"] (canonical follows...)
+515: Checking 0->["0"] against ["0"] (canonical)
+518: Checking 0->["0"] against ["0"] (canonical follows...)
+518: Checking 0->["0"] against ["0"] (canonical)
+521: Checking 0->["0"] against ["0"] (canonical follows...)
+521: Checking 0->["0"] against ["0"] (canonical)
+524: Checking -0->["-0"] against ["-0"] (canonical follows...)
+524: Checking -0->["-0"] against ["-0"] (canonical)
+527: Checking -0->["-0"] against ["-0"] (canonical follows...)
+527: Checking -0->["-0"] against ["-0"] (canonical)
+532: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+532: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+535: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+535: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+538: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+538: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+541: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+541: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+544: Checking 0.5->["0.5"] against ["0.5"] (canonical follows...)
+544: Checking 0.5->["5.0E-1"] against ["5.0E-1"] (canonical)
+547: Checking -0.5->["-0.5"] against ["-0.5"] (canonical follows...)
+547: Checking -0.5->["-5.0E-1"] against ["-5.0E-1"] (canonical)
+550: Checking -0.5->["-0.5"] against ["-0.5"] (canonical follows...)
+550: Checking -0.5->["-5.0E-1"] against ["-5.0E-1"] (canonical)
+555: Checking 5->["5.0"] against ["5.0"] (canonical follows...)
+555: Checking 5->["5.0E0"] against ["5.0E0"] (canonical)
+558: Checking 5->["5.0"] against ["5.0"] (canonical follows...)
+558: Checking 5->["5.0E0"] against ["5.0E0"] (canonical)
+561: Checking 5->["5.0"] against ["5.0"] (canonical follows...)
+561: Checking 5->["5.0E0"] against ["5.0E0"] (canonical)
+564: Checking 5->["5.0"] against ["5.0"] (canonical follows...)
+564: Checking 5->["5.0E0"] against ["5.0E0"] (canonical)
+567: Checking 5->["5.0"] against ["5.0"] (canonical follows...)
+567: Checking 5->["5.0E0"] against ["5.0E0"] (canonical)
+570: Checking -5->["-5.0"] against ["-5.0"] (canonical follows...)
+570: Checking -5->["-5.0E0"] against ["-5.0E0"] (canonical)
+573: Checking -5->["-5.0"] against ["-5.0"] (canonical follows...)
+573: Checking -5->["-5.0E0"] against ["-5.0E0"] (canonical)
+verify double value 1.000000000000 [000000000000f03f] (ilogb 0)
+canonical DER: [800001]
+received as:   [80cc10000000000000]
+1.000000000000 vs 1.000000000000
+606: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+606: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+verify double value 1.100000000000 [9a9999999999f13f] (ilogb 0)
+canonical DER: [80cd08cccccccccccd]
+received as:   [80cc1199999999999a]
+1.100000000000 vs 1.100000000000
+607: Checking 1.1->["1.1"] against ["1.1"] (canonical follows...)
+607: Checking 1.1->["1.1E0"] against ["1.1E0"] (canonical)
+verify double value 3.140000000000 [1f85eb51b81e0940] (ilogb 1)
+canonical DER: [80cd191eb851eb851f]
+received as:   [80cd191eb851eb851f]
+3.140000000000 vs 3.140000000000
+608: Checking 3.14->["3.14"] against ["3.14"] (canonical follows...)
+608: Checking 3.14->["3.14E0"] against ["3.14E0"] (canonical)
+verify double value -3.140000000000 [1f85eb51b81e09c0] (ilogb 1)
+canonical DER: [c0cd191eb851eb851f]
+received as:   [c0c5191eb851eb851f03]
+-3.140000000000 vs -3.140000000000
+610: Checking -3.14->["-3.14"] against ["-3.14"] (canonical follows...)
+610: Checking -3.14->["-3.14E0"] against ["-3.14E0"] (canonical)
+verify double value 3.140000000000 [1f85eb51b81e0940] (ilogb 1)
+canonical DER: [80cd191eb851eb851f]
+received as:   [80bd191eb851eb851f0302]
+3.140000000000 vs 3.140000000000
+611: Checking 3.14->["3.14"] against ["3.14"] (canonical follows...)
+611: Checking 3.14->["3.14E0"] against ["3.14E0"] (canonical)
+Line 623: double value 0.000000000000 [0000000000000000] (ilogb -2147483648)
+frexp(0.000000, 0): [0000000000000000]
+converted into []: 0
+and back to double: [0000000000000000] (ilogb -2147483648)
+0.000000000000 vs 0.000000000000
+OK
+623: Checking 0->["0"] against ["0"] (canonical follows...)
+623: Checking 0->["0"] against ["0"] (canonical)
+Line 624: double value -0.000000000000 [0000000000000080] (ilogb -2147483648)
+frexp(-0.000000, 0): [0000000000000080]
+converted into [43]: 1
+and back to double: [0000000000000080] (ilogb -2147483648)
+-0.000000000000 vs -0.000000000000
+OK
+624: Checking -0->["-0"] against ["-0"] (canonical follows...)
+624: Checking -0->["-0"] against ["-0"] (canonical)
+Line 625: double value -nan [000000000000f8ff] (ilogb -2147483648)
+frexp(-nan, 0): [000000000000f8ff]
+converted into [42]: 1
+and back to double: [000000000000f87f] (ilogb -2147483648)
+nan vs -nan
+OK
+625: Checking nan->["<NOT-A-NUMBER/>"] against ["<NOT-A-NUMBER/>"] (canonical follows...)
+625: Checking nan->["<NOT-A-NUMBER/>"] against ["<NOT-A-NUMBER/>"] (canonical)
+Line 626: double value inf [000000000000f07f] (ilogb 2147483647)
+frexp(inf, 0): [000000000000f07f]
+converted into [40]: 1
+and back to double: [000000000000f07f] (ilogb 2147483647)
+inf vs inf
+OK
+626: Checking inf->["<PLUS-INFINITY/>"] against ["<PLUS-INFINITY/>"] (canonical follows...)
+626: Checking inf->["<PLUS-INFINITY/>"] against ["<PLUS-INFINITY/>"] (canonical)
+Line 627: double value -inf [000000000000f0ff] (ilogb 2147483647)
+frexp(-inf, 0): [000000000000f0ff]
+converted into [41]: 1
+and back to double: [000000000000f0ff] (ilogb 2147483647)
+-inf vs -inf
+OK
+627: Checking -inf->["<MINUS-INFINITY/>"] against ["<MINUS-INFINITY/>"] (canonical follows...)
+627: Checking -inf->["<MINUS-INFINITY/>"] against ["<MINUS-INFINITY/>"] (canonical)
+Line 628: double value 1.000000000000 [000000000000f03f] (ilogb 0)
+frexp(0.500000, 1): [000000000000e03f]
+converted into [800001]: 3
+and back to double: [000000000000f03f] (ilogb 0)
+1.000000000000 vs 1.000000000000
+OK
+628: Checking 1->["1.0"] against ["1.0"] (canonical follows...)
+628: Checking 1->["1.0E0"] against ["1.0E0"] (canonical)
+Line 629: double value -1.000000000000 [000000000000f0bf] (ilogb 0)
+frexp(-0.500000, 1): [000000000000e0bf]
+converted into [c00001]: 3
+and back to double: [000000000000f0bf] (ilogb 0)
+-1.000000000000 vs -1.000000000000
+OK
+629: Checking -1->["-1.0"] against ["-1.0"] (canonical follows...)
+629: Checking -1->["-1.0E0"] against ["-1.0E0"] (canonical)
+Line 630: double value 0.100000000000 [9a9999999999b93f] (ilogb -4)
+frexp(0.800000, -3): [9a9999999999e93f]
+converted into [80c90ccccccccccccd]: 9
+and back to double: [9a9999999999b93f] (ilogb -4)
+0.100000000000 vs 0.100000000000
+OK
+630: Checking 0.1->["0.1"] against ["0.1"] (canonical follows...)
+630: Checking 0.1->["1.0E-1"] against ["1.0E-1"] (canonical)
+Line 631: double value 0.010000000000 [7b14ae47e17a843f] (ilogb -7)
+frexp(0.640000, -6): [7b14ae47e17ae43f]
+converted into [80c5147ae147ae147b]: 9
+and back to double: [7b14ae47e17a843f] (ilogb -7)
+0.010000000000 vs 0.010000000000
+OK
+631: Checking 0.01->["0.01"] against ["0.01"] (canonical follows...)
+631: Checking 0.01->["1.0E-2"] against ["1.0E-2"] (canonical)
+Line 632: double value 0.020000000000 [7b14ae47e17a943f] (ilogb -6)
+frexp(0.640000, -5): [7b14ae47e17ae43f]
+converted into [80c6147ae147ae147b]: 9
+and back to double: [7b14ae47e17a943f] (ilogb -6)
+0.020000000000 vs 0.020000000000
+OK
+632: Checking 0.02->["0.02"] against ["0.02"] (canonical follows...)
+632: Checking 0.02->["2.0E-2"] against ["2.0E-2"] (canonical)
+Line 633: double value 0.090000000000 [0ad7a3703d0ab73f] (ilogb -4)
+frexp(0.720000, -3): [0ad7a3703d0ae73f]
+converted into [80c90b851eb851eb85]: 9
+and back to double: [0ad7a3703d0ab73f] (ilogb -4)
+0.090000000000 vs 0.090000000000
+OK
+633: Checking 0.09->["0.09"] against ["0.09"] (canonical follows...)
+633: Checking 0.09->["9.0E-2"] against ["9.0E-2"] (canonical)
+Line 634: double value 1.500000000000 [000000000000f83f] (ilogb 0)
+frexp(0.750000, 1): [000000000000e83f]
+converted into [80ff03]: 3
+and back to double: [000000000000f83f] (ilogb 0)
+1.500000000000 vs 1.500000000000
+OK
+634: Checking 1.5->["1.5"] against ["1.5"] (canonical follows...)
+634: Checking 1.5->["1.5E0"] against ["1.5E0"] (canonical)
+Line 635: double value 0.333330000000 [bea4315a4755d53f] (ilogb -2)
+frexp(0.666660, -1): [bea4315a4755e53f]
+converted into [80cb0aaaa3ad18d25f]: 9
+and back to double: [bea4315a4755d53f] (ilogb -2)
+0.333330000000 vs 0.333330000000
+OK
+635: Checking 0.33333->["0.33333"] against ["0.33333"] (canonical follows...)
+635: Checking 0.33333->["3.3333E-1"] against ["3.3333E-1"] (canonical)
+Line 636: double value 2.000000000000 [0000000000000040] (ilogb 1)
+frexp(0.500000, 2): [000000000000e03f]
+converted into [800101]: 3
+and back to double: [0000000000000040] (ilogb 1)
+2.000000000000 vs 2.000000000000
+OK
+636: Checking 2->["2.0"] against ["2.0"] (canonical follows...)
+636: Checking 2->["2.0E0"] against ["2.0E0"] (canonical)
+Line 637: double value 2.100000000000 [cdcccccccccc0040] (ilogb 1)
+frexp(0.525000, 2): [cdcccccccccce03f]
+converted into [80cd10cccccccccccd]: 9
+and back to double: [cdcccccccccc0040] (ilogb 1)
+2.100000000000 vs 2.100000000000
+OK
+637: Checking 2.1->["2.1"] against ["2.1"] (canonical follows...)
+637: Checking 2.1->["2.1E0"] against ["2.1E0"] (canonical)
+Line 638: double value 3.000000000000 [0000000000000840] (ilogb 1)
+frexp(0.750000, 2): [000000000000e83f]
+converted into [800003]: 3
+and back to double: [0000000000000840] (ilogb 1)
+3.000000000000 vs 3.000000000000
+OK
+638: Checking 3->["3.0"] against ["3.0"] (canonical follows...)
+638: Checking 3->["3.0E0"] against ["3.0E0"] (canonical)
+Line 639: double value 3.100000000000 [cdcccccccccc0840] (ilogb 1)
+frexp(0.775000, 2): [cdcccccccccce83f]
+converted into [80cd18cccccccccccd]: 9
+and back to double: [cdcccccccccc0840] (ilogb 1)
+3.100000000000 vs 3.100000000000
+OK
+639: Checking 3.1->["3.1"] against ["3.1"] (canonical follows...)
+639: Checking 3.1->["3.1E0"] against ["3.1E0"] (canonical)
+Line 640: double value 3.140000000000 [1f85eb51b81e0940] (ilogb 1)
+frexp(0.785000, 2): [1f85eb51b81ee93f]
+converted into [80cd191eb851eb851f]: 9
+and back to double: [1f85eb51b81e0940] (ilogb 1)
+3.140000000000 vs 3.140000000000
+OK
+640: Checking 3.14->["3.14"] against ["3.14"] (canonical follows...)
+640: Checking 3.14->["3.14E0"] against ["3.14E0"] (canonical)
+Line 641: double value 3.141500000000 [6f1283c0ca210940] (ilogb 1)
+frexp(0.785375, 2): [6f1283c0ca21e93f]
+converted into [80cd1921cac083126f]: 9
+and back to double: [6f1283c0ca210940] (ilogb 1)
+3.141500000000 vs 3.141500000000
+OK
+641: Checking 3.1415->["3.1415"] against ["3.1415"] (canonical follows...)
+641: Checking 3.1415->["3.1415E0"] against ["3.1415E0"] (canonical)
+Line 642: double value 3.141592000000 [7a008bfcfa210940] (ilogb 1)
+frexp(0.785398, 2): [7a008bfcfa21e93f]
+converted into [80ce0c90fd7e45803d]: 9
+and back to double: [7a008bfcfa210940] (ilogb 1)
+3.141592000000 vs 3.141592000000
+OK
+642: Checking 3.14159->["3.141592"] against ["3.141592"] (canonical follows...)
+642: Checking 3.14159->["3.141592E0"] against ["3.141592E0"] (canonical)
+Line 643: double value 3.141592650000 [f1d4c853fb210940] (ilogb 1)
+frexp(0.785398, 2): [f1d4c853fb21e93f]
+converted into [80cd1921fb53c8d4f1]: 9
+and back to double: [f1d4c853fb210940] (ilogb 1)
+3.141592650000 vs 3.141592650000
+OK
+643: Checking 3.14159->["3.14159265"] against ["3.14159265"] (canonical follows...)
+643: Checking 3.14159->["3.14159265E0"] against ["3.14159265E0"] (canonical)
+Line 644: double value -3.141592650000 [f1d4c853fb2109c0] (ilogb 1)
+frexp(-0.785398, 2): [f1d4c853fb21e9bf]
+converted into [c0cd1921fb53c8d4f1]: 9
+and back to double: [f1d4c853fb2109c0] (ilogb 1)
+-3.141592650000 vs -3.141592650000
+OK
+644: Checking -3.14159->["-3.14159265"] against ["-3.14159265"] (canonical follows...)
+644: Checking -3.14159->["-3.14159265E0"] against ["-3.14159265E0"] (canonical)
+Line 645: double value 14159265.000000000000 [00000020b4016b41] (ilogb 23)
+frexp(0.843958, 24): [00000020b401eb3f]
+converted into [800000d80da1]: 6
+and back to double: [00000020b4016b41] (ilogb 23)
+14159265.000000000000 vs 14159265.000000000000
+OK
+645: Checking 1.41593e+07->["14159265.0"] against ["14159265.0"] (canonical follows...)
+645: Checking 1.41593e+07->["1.4159265E7"] against ["1.4159265E7"] (canonical)
+Line 646: double value -123456789123456784.000000000000 [f105cdbab4697bc3] (ilogb 56)
+frexp(-0.856654, 57): [f105cdbab469ebbf]
+converted into [c0041b69b4bacd05f1]: 9
+and back to double: [f105cdbab4697bc3] (ilogb 56)
+-123456789123456784.000000000000 vs -123456789123456784.000000000000
+OK
+646: Checking -1.23457e+17->["-123456789123456784.0"] against ["-123456789123456784.0"] (canonical follows...)
+646: Checking -1.23457e+17->["-1.234567891234568E17"] against ["-1.234567891234568E17"] (canonical)
+Line 647: double value 0.000000000010 [956479e17ffda53d] (ilogb -37)
+frexp(0.687195, -36): [956479e17ffde53f]
+converted into [80a715fd7fe1796495]: 9
+and back to double: [956479e17ffda53d] (ilogb -37)
+0.000000000010 vs 0.000000000010
+OK
+647: Checking 1e-11->["0.00000000001"] against ["0.00000000001"] (canonical follows...)
+647: Checking 1e-11->["9.999999999999999E-12"] against ["9.999999999999999E-12"] (canonical)
+Line 648: double value 0.000000000020 [956479e17ffdb53d] (ilogb -36)
+frexp(0.687195, -35): [956479e17ffde53f]
+converted into [80a815fd7fe1796495]: 9
+and back to double: [956479e17ffdb53d] (ilogb -36)
+0.000000000020 vs 0.000000000020
+OK
+648: Checking 2e-11->["0.00000000002"] against ["0.00000000002"] (canonical follows...)
+648: Checking 2e-11->["2.0E-11"] against ["2.0E-11"] (canonical)
+Line 649: double value 0.000000000090 [2891a8dd2fbdd83d] (ilogb -34)
+frexp(0.773094, -33): [2891a8dd2fbde83f]
+converted into [80ad0317a5fbb51225]: 9
+and back to double: [2891a8dd2fbdd83d] (ilogb -34)
+0.000000000090 vs 0.000000000090
+OK
+649: Checking 9e-11->["0.00000000009"] against ["0.00000000009"] (canonical follows...)
+649: Checking 9e-11->["9.0E-11"] against ["9.0E-11"] (canonical)
+Line 650: double value 0.000000000002 [11ea2d819997813d] (ilogb -39)
+frexp(0.549756, -38): [11ea2d819997e13f]
+converted into [80a5119799812dea11]: 9
+and back to double: [11ea2d819997813d] (ilogb -39)
+0.000000000002 vs 0.000000000002
+OK
+650: Checking 2e-12->["0.000000000002"] against ["0.000000000002"] (canonical follows...)
+650: Checking 2e-12->["2.0E-12"] against ["2.0E-12"] (canonical)
+Line 651: double value 0.000000000000 [82764968c2254c3d] (ilogb -43)
+frexp(0.879609, -42): [82764968c225ec3f]
+converted into [80a20e12e13424bb41]: 9
+and back to double: [82764968c2254c3d] (ilogb -43)
+0.000000000000 vs 0.000000000000
+OK
+651: Checking 2e-13->["0.0000000000002"] against ["0.0000000000002"] (canonical follows...)
+651: Checking 2e-13->["2.0E-13"] against ["2.0E-13"] (canonical)
+Line 652: double value 0.000000000000 [9b2ba1869b84163d] (ilogb -46)
+frexp(0.703687, -45): [9b2ba1869b84e63f]
+converted into [809e16849b86a12b9b]: 9
+and back to double: [9b2ba1869b84163d] (ilogb -46)
+0.000000000000 vs 0.000000000000
+OK
+652: Checking 2e-14->["0.00000000000002"] against ["0.00000000000002"] (canonical follows...)
+652: Checking 2e-14->["2.0E-14"] against ["2.0E-14"] (canonical)
+Line 653: double value 0.000000000000 [1656e79eaf03e23c] (ilogb -49)
+frexp(0.562950, -48): [1656e79eaf03e23f]
+converted into [809c0901d7cf73ab0b]: 9
+and back to double: [1656e79eaf03e23c] (ilogb -49)
+0.000000000000 vs 0.000000000000
+OK
+653: Checking 2e-15->["0.000000000000002"] against ["0.000000000000002"] (canonical follows...)
+653: Checking 2e-15->["2.0E-15"] against ["2.0E-15"] (canonical)
+Line 654: double value 0.000000000000 [bc89d897b2d2ac3c] (ilogb -53)
+frexp(0.900720, -52): [bc89d897b2d2ec3f]
+converted into [80990734aca5f6226f]: 9
+and back to double: [bc89d897b2d2ac3c] (ilogb -53)
+0.000000000000 vs 0.000000000000
+OK
+654: Checking 2e-16->["0.0"] against ["0.0"] (canonical follows...)
+654: Checking 2e-16->["2.0E-16"] against ["2.0E-16"] (canonical)
+Line 655: double value 0.000000000000 [e65e171020395e3b] (ilogb -74)
+frexp(0.944473, -73): [e65e17102039ee3f]
+converted into [80830f1c90080baf73]: 9
+and back to double: [e65e171020395e3b] (ilogb -74)
+0.000000000000 vs 0.000000000000
+OK
+655: Checking 1e-22->["0.0"] against ["0.0"] (canonical follows...)
+655: Checking 1e-22->["1.0E-22"] against ["1.0E-22"] (canonical)
+Line 656: double value 0.000000000000 [a0c2ebfe4b48b439] (ilogb -100)
+frexp(0.633825, -99): [a0c2ebfe4b48e43f]
+converted into [81ff6d00a2425ff75e15]: 10
+and back to double: [a0c2ebfe4b48b439] (ilogb -100)
+0.000000000000 vs 0.000000000000
+OK
+656: Checking 1e-30->["0.0"] against ["0.0"] (canonical follows...)
+656: Checking 1e-30->["1.0E-30"] against ["1.0E-30"] (canonical)
+Line 657: double value -0.000000000000 [a0c2ebfe4b48b4b9] (ilogb -100)
+frexp(-0.633825, -99): [a0c2ebfe4b48e4bf]
+converted into [c1ff6d00a2425ff75e15]: 10
+and back to double: [a0c2ebfe4b48b4b9] (ilogb -100)
+-0.000000000000 vs -0.000000000000
+OK
+657: Checking -1e-30->["-0.0"] against ["-0.0"] (canonical follows...)
+657: Checking -1e-30->["-1.0E-30"] against ["-1.0E-30"] (canonical)
+Line 658: double value 0.000000000001 [597835819997713d] (ilogb -40)
+frexp(0.549756, -39): [597835819997e13f]
+converted into [80a411979981357859]: 9
+and back to double: [597835819997713d] (ilogb -40)
+0.000000000001 vs 0.000000000001
+OK
+Line 659: double value 0.000000000000 [b71cf7b3f7dbd42c] (ilogb -306)
+frexp(0.651852, -305): [b71cf7b3f7dbe43f]
+converted into [81fe9a14dbf7b3f71cb7]: 10
+and back to double: [b71cf7b3f7dbd42c] (ilogb -306)
+0.000000000000 vs 0.000000000000
+OK
+Line 660: double value 0.000000000000 [c98a8631a808c304] (ilogb -947)
+frexp(0.594807, -946): [c98a8631a808e33f]
+converted into [81fc191308a831868ac9]: 10
+and back to double: [c98a8631a808c304] (ilogb -947)
+0.000000000000 vs 0.000000000000
+OK
+Line 661: double value -0.000000000000 [c98a8631a808c384] (ilogb -947)
+frexp(-0.594807, -946): [c98a8631a808e3bf]
+converted into [c1fc191308a831868ac9]: 10
+and back to double: [c98a8631a808c384] (ilogb -947)
+-0.000000000000 vs -0.000000000000
+OK
+Line 662: double value -3.333333333333 [abaaaaaaaaaa0ac0] (ilogb 1)
+frexp(-0.833333, 2): [abaaaaaaaaaaeabf]
+converted into [c0cd1aaaaaaaaaaaab]: 9
+and back to double: [abaaaaaaaaaa0ac0] (ilogb 1)
+-3.333333333333 vs -3.333333333333
+OK
+Line 663: double value 0.000000000000 [118ea8d1fedcdd2a] (ilogb -338)
+frexp(0.933227, -337): [118ea8d1fedced3f]
+converted into [81fe7a1ddcfed1a88e11]: 10
+and back to double: [118ea8d1fedcdd2a] (ilogb -338)
+0.000000000000 vs 0.000000000000
+OK
+Line 664: double value 0.250000000000 [000000000000d03f] (ilogb -2)
+frexp(0.500000, -1): [000000000000e03f]
+converted into [80fe01]: 3
+and back to double: [000000000000d03f] (ilogb -2)
+0.250000000000 vs 0.250000000000
+OK
+664: Checking 0.25->["0.25"] against ["0.25"] (canonical follows...)
+664: Checking 0.25->["2.5E-1"] against ["2.5E-1"] (canonical)
+Line 665: double value -0.250000000000 [000000000000d0bf] (ilogb -2)
+frexp(-0.500000, -1): [000000000000e0bf]
+converted into [c0fe01]: 3
+and back to double: [000000000000d0bf] (ilogb -2)
+-0.250000000000 vs -0.250000000000
+OK
+665: Checking -0.25->["-0.25"] against ["-0.25"] (canonical follows...)
+665: Checking -0.25->["-2.5E-1"] against ["-2.5E-1"] (canonical)
+Line 666: double value 0.030000000000 [b81e85eb51b89e3f] (ilogb -6)
+frexp(0.960000, -5): [b81e85eb51b8ee3f]
+converted into [80c903d70a3d70a3d7]: 9
+and back to double: [b81e85eb51b89e3f] (ilogb -6)
+0.030000000000 vs 0.030000000000
+OK
+666: Checking 0.03->["0.03"] against ["0.03"] (canonical follows...)
+666: Checking 0.03->["3.0E-2"] against ["3.0E-2"] (canonical)
+Line 667: double value -0.030000000000 [b81e85eb51b89ebf] (ilogb -6)
+frexp(-0.960000, -5): [b81e85eb51b8eebf]
+converted into [c0c903d70a3d70a3d7]: 9
+and back to double: [b81e85eb51b89ebf] (ilogb -6)
+-0.030000000000 vs -0.030000000000
+OK
+667: Checking -0.03->["-0.03"] against ["-0.03"] (canonical follows...)
+667: Checking -0.03->["-3.0E-2"] against ["-3.0E-2"] (canonical)
+Line 669: double value 0.000000000000 [2e922d47a201ae35] (ilogb -165)
+frexp(0.937699, -164): [2e922d47a201ee3f]
+converted into [81ff280f00d12396c917]: 10
+and back to double: [2e922d47a201ae35] (ilogb -165)
+0.000000000000 vs 0.000000000000
+OK
+669: Checking 4.01e-50->["0.0"] against ["0.0"] (canonical follows...)
+669: Checking 4.01e-50->["4.01E-50"] against ["4.01E-50"] (canonical)
+Line 670: double value -0.000000000000 [2e922d47a201aeb5] (ilogb -165)
+frexp(-0.937699, -164): [2e922d47a201eebf]
+converted into [c1ff280f00d12396c917]: 10
+and back to double: [2e922d47a201aeb5] (ilogb -165)
+-0.000000000000 vs -0.000000000000
+OK
+670: Checking -4.01e-50->["-0.0"] against ["-0.0"] (canonical follows...)
+670: Checking -4.01e-50->["-4.01E-50"] against ["-4.01E-50"] (canonical)
+Line 671: double value -0.000000000000 [0100000000000080] (ilogb -1074)
+frexp(-0.500000, -1073): [000000000000e0bf]
+converted into [c1fb9a10000000000001]: 10
+and back to double: [0100000000000080] (ilogb -1074)
+-0.000000000000 vs -0.000000000000
+OK
+671: Checking -4.94066e-324->["-0.0"] against ["-0.0"] (canonical follows...)
+671: Checking -4.94066e-324->["-4.940656458412465E-324"] against ["-4.940656458412465E-324"] (canonical)
+Line 672: double value 0.000000000000 [0000000000001000] (ilogb -1022)
+frexp(0.500000, -1021): [000000000000e03f]
+converted into [81fc0201]: 4
+and back to double: [0000000000001000] (ilogb -1022)
+0.000000000000 vs 0.000000000000
+OK
+672: Checking 2.22507e-308->["0.0"] against ["0.0"] (canonical follows...)
+672: Checking 2.22507e-308->["2.225073858507201E-308"] against ["2.225073858507201E-308"] (canonical)
+Line 673: double value -0.000000000000 [0000000000001080] (ilogb -1022)
+frexp(-0.500000, -1021): [000000000000e0bf]
+converted into [c1fc0201]: 4
+and back to double: [0000000000001080] (ilogb -1022)
+-0.000000000000 vs -0.000000000000
+OK
+673: Checking -2.22507e-308->["-0.0"] against ["-0.0"] (canonical follows...)
+673: Checking -2.22507e-308->["-2.225073858507201E-308"] against ["-2.225073858507201E-308"] (canonical)
+Line 674: double value 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000000000 [ffffffffffffef7f] (ilogb 1023)
+frexp(1.000000, 1024): [ffffffffffffef3f]
+converted into [8103cb1fffffffffffff]: 10
+and back to double: [ffffffffffffef7f] (ilogb 1023)
+179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000000000 vs 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000000000
+OK
+674: Checking 1.79769e+308->["179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.0"] against ["179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.0"] (canonical follows...)
+674: Checking 1.79769e+308->["1.797693134862316E308"] against ["1.797693134862316E308"] (canonical)
+Line 675: double value -179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000000000 [ffffffffffffefff] (ilogb 1023)
+frexp(-1.000000, 1024): [ffffffffffffefbf]
+converted into [c103cb1fffffffffffff]: 10
+and back to double: [ffffffffffffefff] (ilogb 1023)
+-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000000000 vs -179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000000000
+OK
+675: Checking -1.79769e+308->["-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.0"] against ["-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.0"] (canonical follows...)
+675: Checking -1.79769e+308->["-1.797693134862316E308"] against ["-1.797693134862316E308"] (canonical)
+Line 676: double value -0.000000000000 [0100000000000080] (ilogb -1074)
+frexp(-0.500000, -1073): [000000000000e0bf]
+converted into [c1fb9a10000000000001]: 10
+and back to double: [0100000000000080] (ilogb -1074)
+-0.000000000000 vs -0.000000000000
+OK
+676: Checking -4.94066e-324->["-0.0"] against ["-0.0"] (canonical follows...)
+676: Checking -4.94066e-324->["-4.940656458412465E-324"] against ["-4.940656458412465E-324"] (canonical)
+Line 677: double value 0.000000000000 [0100000000000000] (ilogb -1074)
+frexp(0.500000, -1073): [000000000000e03f]
+converted into [81fb9a10000000000001]: 10
+and back to double: [0100000000000000] (ilogb -1074)
+0.000000000000 vs 0.000000000000
+OK
+677: Checking 4.94066e-324->["0.0"] against ["0.0"] (canonical follows...)
+677: Checking 4.94066e-324->["4.940656458412465E-324"] against ["4.940656458412465E-324"] (canonical)
+nan vs (28)[<REAL><NOT-A-NUMBER/></REAL>] & (29)<REAL><NOT-A-NUMBER/></REAL>
+inf vs (29)[<REAL><PLUS-INFINITY/></REAL>] & (30)<REAL><PLUS-INFINITY/></REAL>
+-inf vs (30)[<REAL><MINUS-INFINITY/></REAL>] & (31)<REAL><MINUS-INFINITY/></REAL>
+1.000000 vs (18)[<REAL>1.0E0</REAL>] & (17)<REAL>1.0</REAL>
+-1.000000 vs (19)[<REAL>-1.0E0</REAL>] & (18)<REAL>-1.0</REAL>
+1.500000 vs (18)[<REAL>1.5E0</REAL>] & (17)<REAL>1.5</REAL>
+123.000000 vs (19)[<REAL>1.23E2</REAL>] & (19)<REAL>123.0</REAL>
+0.000000 vs (20)[<REAL>1.0E-22</REAL>] & (17)<REAL>0.0</REAL>
+-0.000000 vs (21)[<REAL>-1.0E-22</REAL>] & (18)<REAL>-0.0</REAL>
+PASS check-REAL (exit status: 0)

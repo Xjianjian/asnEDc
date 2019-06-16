@@ -1,0 +1,110 @@
+Checking ../tests/03-enum-OK.asn1 against ../tests/03-enum-OK.asn1.-EF
+Checking ../tests/03-enum-OK.asn1 against ../tests/03-enum-OK.asn1.-Pfwide-types
+Checking ../tests/04-enum-SE.asn1 against ../tests/04-enum-SE.asn1.-E
+Checking ../tests/07-int-OK.asn1 against ../tests/07-int-OK.asn1.-EF
+Checking ../tests/104-param-1-OK.asn1 against ../tests/104-param-1-OK.asn1.-EFprint-class-matrix
+Checking ../tests/104-param-1-OK.asn1 against ../tests/104-param-1-OK.asn1.-Pfwide-types
+Checking ../tests/105-param-2-OK.asn1 against ../tests/105-param-2-OK.asn1.-Pfwide-types
+Checking ../tests/106-param-constr-OK.asn1 against ../tests/106-param-constr-OK.asn1.-P
+Checking ../tests/108-param-constr-3-OK.asn1 against ../tests/108-param-constr-3-OK.asn1.-Pfwide-types
+Checking ../tests/110-param-3-OK.asn1 against ../tests/110-param-3-OK.asn1.-Pfwide-types
+Checking ../tests/112-param-class-OK.asn1 against ../tests/112-param-class-OK.asn1.-EF
+Checking ../tests/117-real-constraint-OK.asn1 against ../tests/117-real-constraint-OK.asn1.-EF
+Checking ../tests/118-per-constraint-OK.asn1 against ../tests/118-per-constraint-OK.asn1.-EFprint-constraints
+Checking ../tests/119-per-strings-OK.asn1 against ../tests/119-per-strings-OK.asn1.-EF
+Checking ../tests/119-per-strings-OK.asn1 against ../tests/119-per-strings-OK.asn1.-Pgen-PER
+Checking ../tests/121-empty-imports-OK.asn1 against ../tests/121-empty-imports-OK.asn1.-EF
+Checking ../tests/123-valueassignment-OK.asn1 against ../tests/123-valueassignment-OK.asn1.-EF
+Checking ../tests/124-multiconstraint-OK.asn1 against ../tests/124-multiconstraint-OK.asn1.-EF
+Checking ../tests/125-bitstring-constraint-OK.asn1 against ../tests/125-bitstring-constraint-OK.asn1.-EF
+Checking ../tests/125-bitstring-constraint-OK.asn1 against ../tests/125-bitstring-constraint-OK.asn1.-P
+Checking ../tests/125-bitstring-constraint-OK.asn1 against ../tests/125-bitstring-constraint-OK.asn1.-X
+Checking ../tests/126-per-extensions-OK.asn1 against ../tests/126-per-extensions-OK.asn1.-Pgen-PER
+Checking ../tests/127-per-long-OK.asn1 against ../tests/127-per-long-OK.asn1.-Pgen-PER
+Checking ../tests/129-enum-OK.asn1 against ../tests/129-enum-OK.asn1.-EF
+Checking ../tests/130-enum-OK.asn1 against ../tests/130-enum-OK.asn1.-EF
+Checking ../tests/131-per-empty-OK.asn1 against ../tests/131-per-empty-OK.asn1.-Pgen-PER
+Checking ../tests/134-per-long-OK.asn1 against ../tests/134-per-long-OK.asn1.-Pgen-PER
+Checking ../tests/14-resolver-OK.asn1 against ../tests/14-resolver-OK.asn1.-EF
+Checking ../tests/16-constraint-OK.asn1 against ../tests/16-constraint-OK.asn1.-EF
+Checking ../tests/16-constraint-OK.asn1 against ../tests/16-constraint-OK.asn1.-EFprint-constraints
+Checking ../tests/19-param-OK.asn1 against ../tests/19-param-OK.asn1.-EF
+Checking ../tests/19-param-OK.asn1 against ../tests/19-param-OK.asn1.-Pfwide-types
+Checking ../tests/20-constr-OK.asn1 against ../tests/20-constr-OK.asn1.-EF
+Checking ../tests/21-tags-OK.asn1 against ../tests/21-tags-OK.asn1.-EF
+Checking ../tests/22-tags-OK.asn1 against ../tests/22-tags-OK.asn1.-EF
+Checking ../tests/22-tags-OK.asn1 against ../tests/22-tags-OK.asn1.-Pfwide-types
+Checking ../tests/23-bits-OK.asn1 against ../tests/23-bits-OK.asn1.-EF
+Checking ../tests/24-sequence-OK.asn1 against ../tests/24-sequence-OK.asn1.-EF
+Checking ../tests/30-set-OK.asn1 against ../tests/30-set-OK.asn1.-Pfwide-types
+Checking ../tests/31-set-of-OK.asn1 against ../tests/31-set-of-OK.asn1.-EF
+Checking ../tests/31-set-of-OK.asn1 against ../tests/31-set-of-OK.asn1.-Pfwide-types
+Checking ../tests/32-sequence-of-OK.asn1 against ../tests/32-sequence-of-OK.asn1.-EF
+Checking ../tests/32-sequence-of-OK.asn1 against ../tests/32-sequence-of-OK.asn1.-P
+Checking ../tests/34-class-OK.asn1 against ../tests/34-class-OK.asn1.-EF
+Checking ../tests/34-class-OK.asn1 against ../tests/34-class-OK.asn1.-EFprint-class-matrix
+Checking ../tests/37-indirect-choice-OK.asn1 against ../tests/37-indirect-choice-OK.asn1.-EF
+Checking ../tests/37-indirect-choice-OK.asn1 against ../tests/37-indirect-choice-OK.asn1.-Pfwide-types
+Checking ../tests/39-sequence-of-OK.asn1 against ../tests/39-sequence-of-OK.asn1.-Pfwide-types
+Checking ../tests/42-real-life-OK.asn1 against ../tests/42-real-life-OK.asn1.-EF
+Checking ../tests/42-real-life-OK.asn1 against ../tests/42-real-life-OK.asn1.-PR
+Checking ../tests/43-recursion-OK.asn1 against ../tests/43-recursion-OK.asn1.-Pfwide-types
+Checking ../tests/44-choice-in-sequence-OK.asn1 against ../tests/44-choice-in-sequence-OK.asn1.-P
+Checking ../tests/45-undefined-type-SE.asn1 against ../tests/45-undefined-type-SE.asn1.-EFfknown-extern-type=KnownExt
+Checking ../tests/46-redefine-OK.asn1 against ../tests/46-redefine-OK.asn1.-PR
+Checking ../tests/47-set-ext-OK.asn1 against ../tests/47-set-ext-OK.asn1.-Pfwide-types
+Checking ../tests/49-real-life-OK.asn1 against ../tests/49-real-life-OK.asn1.-E
+Checking ../tests/50-constraint-OK.asn1 against ../tests/50-constraint-OK.asn1.-EFprint-constraints
+Checking ../tests/50-constraint-OK.asn1 against ../tests/50-constraint-OK.asn1.-Pfwide-types
+Checking ../tests/50-constraint-OK.asn1 against ../tests/50-constraint-OK.asn1.-Pgen-PER
+Checking ../tests/55-components-of-OK.asn1 against ../tests/55-components-of-OK.asn1.-EF
+Checking ../tests/58-param-OK.asn1 against ../tests/58-param-OK.asn1.-EF
+Checking ../tests/59-choice-extended-OK.asn1 against ../tests/59-choice-extended-OK.asn1.-Pfwide-types
+Checking ../tests/60-any-OK.asn1 against ../tests/60-any-OK.asn1.-EF
+Checking ../tests/60-any-OK.asn1 against ../tests/60-any-OK.asn1.-Pfwide-types
+Checking ../tests/62-any-OK.asn1 against ../tests/62-any-OK.asn1.-EF
+Checking ../tests/65-multi-tag-OK.asn1 against ../tests/65-multi-tag-OK.asn1.-Pfnative-types
+-fnative-types: Deprecated option
+Checking ../tests/65-multi-tag-OK.asn1 against ../tests/65-multi-tag-OK.asn1.-Pfwide-types
+Checking ../tests/66-ref-simple-OK.asn1 against ../tests/66-ref-simple-OK.asn1.-Pfwide-types
+Checking ../tests/69-reserved-words-OK.asn1 against ../tests/69-reserved-words-OK.asn1.-Pfwide-types
+Checking ../tests/70-xer-test-OK.asn1 against ../tests/70-xer-test-OK.asn1.-EF
+Checking ../tests/70-xer-test-OK.asn1 against ../tests/70-xer-test-OK.asn1.-Pfwide-types
+Checking ../tests/72-same-names-OK.asn1 against ../tests/72-same-names-OK.asn1.-Pfwide-types
+Checking ../tests/73-circular-OK.asn1 against ../tests/73-circular-OK.asn1.-Pfwide-types
+Checking ../tests/74-int-enum-constraints-OK.asn1 against ../tests/74-int-enum-constraints-OK.asn1.-EFprint-constraints
+Checking ../tests/79-constrained-by-OK.asn1 against ../tests/79-constrained-by-OK.asn1.-EF
+Checking ../tests/82-with-comps-OK.asn1 against ../tests/82-with-comps-OK.asn1.-EF
+Checking ../tests/84-param-tags-OK.asn1 against ../tests/84-param-tags-OK.asn1.-EF
+Checking ../tests/84-param-tags-OK.asn1 against ../tests/84-param-tags-OK.asn1.-Pfwide-types
+Checking ../tests/86-atags-OK.asn1 against ../tests/86-atags-OK.asn1.-EF
+Checking ../tests/88-integer-enum-OK.asn1 against ../tests/88-integer-enum-OK.asn1.-Pfwide-types
+Checking ../tests/89-bit-string-enum-OK.asn1 against ../tests/89-bit-string-enum-OK.asn1.-Pfcompound-names
+Checking ../tests/89-bit-string-enum-OK.asn1 against ../tests/89-bit-string-enum-OK.asn1.-Pfwide-types
+Checking ../tests/90-cond-int-type-OK.asn1 against ../tests/90-cond-int-type-OK.asn1.-EFprint-constraints
+Checking ../tests/90-cond-int-type-OK.asn1 against ../tests/90-cond-int-type-OK.asn1.-P
+Checking ../tests/90-cond-int-type-OK.asn1 against ../tests/90-cond-int-type-OK.asn1.-Pfwide-types
+Checking ../tests/90-cond-int-type-OK.asn1 against ../tests/90-cond-int-type-OK.asn1.-Pgen-PER
+Checking ../tests/91-cond-int-blessSize-OK.asn1 against ../tests/91-cond-int-blessSize-OK.asn1.-Pfbless-SIZE
+Checking ../tests/92-circular-loops-OK.asn1 against ../tests/92-circular-loops-OK.asn1.-Pfindirect-choice
+Checking ../tests/92-circular-loops-OK.asn1 against ../tests/92-circular-loops-OK.asn1.-Pfwide-types
+Checking ../tests/93-asn1c-controls-OK.asn1 against ../tests/93-asn1c-controls-OK.asn1.-EF
+INFO: Directive <ASN1C:RepresentAsPointer> applied to INTEGER at line 18
+INFO: Directive <ASN1C:RepresentAsPointer> applied to member at line 24
+INFO: Directive <ASN1C:RepresentAsPointer> applied to SET OF at line 28
+INFO: Directive <ASN1C:RepresentAsPointer> applied to member at line 30
+Checking ../tests/93-asn1c-controls-OK.asn1 against ../tests/93-asn1c-controls-OK.asn1.-Pfwide-types
+INFO: Directive <ASN1C:RepresentAsPointer> applied to INTEGER at line 18
+INFO: Directive <ASN1C:RepresentAsPointer> applied to member at line 24
+INFO: Directive <ASN1C:RepresentAsPointer> applied to SET OF at line 28
+INFO: Directive <ASN1C:RepresentAsPointer> applied to member at line 30
+Checking ../tests/94-set-optionals-OK.asn1 against ../tests/94-set-optionals-OK.asn1.-P
+Checking ../tests/95-choice-per-order-OK.asn1 against ../tests/95-choice-per-order-OK.asn1.-Pfwide-types
+Checking ../tests/95-choice-per-order-OK.asn1 against ../tests/95-choice-per-order-OK.asn1.-Pgen-PER
+Checking ../tests/97-type-identifier-SW.asn1 against ../tests/97-type-identifier-SW.asn1.-EF
+WARNING: ASN.1 expression "TYPE-IDENTIFIER" at line 17 of module ASN1C-UsefulInformationObjectClasses
+clashes with expression "TYPE-IDENTIFIER" at line 23 of module ModuleTypeIdentifier1 (../tests/97-type-identifier-SW.asn1).
+Rename or remove either instance to resolve the conflict in ../skeletons/standard-modules/ASN1C-UsefulInformationObjectClasses.asn1
+Checking ../tests/98-attribute-class-OK.asn1 against ../tests/98-attribute-class-OK.asn1.-P
+Checking ../tests/99-class-sample-OK.asn1 against ../tests/99-class-sample-OK.asn1.-EFprint-class-matrix
+PASS check-parsing.sh (exit status: 0)

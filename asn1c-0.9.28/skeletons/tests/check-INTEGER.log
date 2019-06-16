@@ -1,0 +1,102 @@
+Testing: [01]:  (1, 0) vs (1, 0)
+1 1
+         [1] vs [1]: 0
+Testing: [ff]:  (-1, 0) vs (-1, 0)
+-1 -1
+         [-1] vs [-1]: 0
+Testing: [ff:ff:ff:ff:ff:ff]:  (-1, 0) vs (-1, 0)
+-1 -1
+         [-1] vs [-1]: 0
+Testing: [ff:ff:ff:ff:ff:f0]:  (-16, 0) vs (-16, 0)
+-16 -16
+         [-16] vs [-16]: 0
+Testing: [00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:01:01]:  (257, 0) vs (257, 0)
+257 257
+         [257] vs [257]: 0
+Testing: [00:01:01:01:01:01:01:01:01:01:01:01:01:01:01]:  (123, -1) vs (123, -1)
+123 123
+         [00:01:01:01:01:01:01:01:01:01:01:01:01:01:01] vs [123]: -1 (expected to fail)
+Testing: [ff:01:01:01:01:01:01:01:01:01:01:01:01:01:01]:  (123, -1) vs (123, -1)
+123 123
+         [FF:01:01:01:01:01:01:01:01:01:01:01:01:01:01] vs [123]: 21 (expected to fail)
+Testing: [7f:7e:7d:7c]:  (2138996092, 0) vs (2138996092, 0)
+2138996092 2138996092
+         [2138996092] vs [2138996092]: 0
+Testing: [00:7f:7e:7d:7c]:  (2138996092, 0) vs (2138996092, 0)
+2138996092 2138996092
+         [2138996092] vs [2138996092]: 0
+Testing: [00:00:00:00:00:00:7f:7e:7d:7c]:  (2138996092, 0) vs (2138996092, 0)
+2138996092 2138996092
+         [2138996092] vs [2138996092]: 0
+Testing: [00:00:00:00:00:00:7f:7e:7d:7c]:  (2138996092, 0) vs (2138996092, 0)
+Testing: [80:00:00:00]:  (-2147483648, 0) vs (-2147483648, 0)
+-2147483648 -2147483648
+         [-2147483648] vs [-2147483648]: 0
+Testing: [80:00]:  (-32768, 0) vs (-32768, 0)
+-32768 -32768
+         [-32768] vs [-32768]: 0
+Testing: [80]:  (-128, 0) vs (-128, 0)
+-128 -128
+         [-128] vs [-128]: 0
+Testing: [00:80:00:00]:  (8388608, 0) vs (8388608, 0)
+Testing: [00:80:00:00:00]:  (2147483648, 0) vs (2147483648, 0)
+Testing: [00:ff:ff:00:00]:  (4294901760, 0) vs (4294901760, 0)
+[] vs 0: 	failed, as expected
+[<INTEGER></INTEGER>] vs 0: 	failed, as expected
+[<INTEGER> </INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>-</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>+</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>+-</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER> -</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER> +</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER> +-</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>- </INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>+ </INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>+- </INTEGER>] vs 0: 	failed, as expected
+[<INTEGER> - </INTEGER>] vs 0: 	failed, as expected
+[<INTEGER> + </INTEGER>] vs 0: 	failed, as expected
+[<INTEGER> +- </INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>+0</INTEGER>] vs 0: 	0
+[<INTEGER>-0</INTEGER>] vs 0: 	0
+[<INTEGER>+1</INTEGER>] vs 1: 	1
+[<INTEGER>-1</INTEGER>] vs -1: 	-1
+[<INTEGER>1</INTEGER>] vs 1: 	1
+[<INTEGER>-15</INTEGER>] vs -15: 	-15
+[<INTEGER>+15</INTEGER>] vs 15: 	15
+[<INTEGER>15</INTEGER>] vs 15: 	15
+[<INTEGER> 15</INTEGER>] vs 15: 	15
+[<INTEGER> 15 </INTEGER>] vs 15: 	15
+[<INTEGER>15 </INTEGER>] vs 15: 	15
+[<INTEGER> +15 </INTEGER>] vs 15: 	15
+[<INTEGER> +15 -</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER> +15 1</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>+ 15</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>12<z>34</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>12 <z>34</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>12 <z></INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>1234</INTEGER>] vs 1234: 	1234
+[<INTEGER>1234 5678</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>-2147483647</INTEGER>] vs -2147483647: 	-2147483647
+[<INTEGER>-2147483648</INTEGER>] vs -2147483648: 	-2147483648
+[<INTEGER>+2147483647</INTEGER>] vs 2147483647: 	2147483647
+[<INTEGER>2147483647</INTEGER>] vs 2147483647: 	2147483647
+[<INTEGER>2147483648</INTEGER>] vs 2147483648: 	2147483648
+[<INTEGER>2147483649</INTEGER>] vs 2147483649: 	2147483649
+[<INTEGER>3147483649</INTEGER>] vs 3147483649: 	3147483649
+[<INTEGER>4147483649</INTEGER>] vs 4147483649: 	4147483649
+[<INTEGER>5147483649</INTEGER>] vs 5147483649: 	5147483649
+[<INTEGER>9147483649</INTEGER>] vs 9147483649: 	9147483649
+[<INTEGER>9999999999</INTEGER>] vs 9999999999: 	9999999999
+[<INTEGER>9223372036854775807</INTEGER>] vs 9223372036854775807: 	9223372036854775807
+[<INTEGER>9223372036854775808</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>10223372036854775807</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>50223372036854775807</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>100223372036854775807</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>500223372036854775807</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>-9223372036854775808</INTEGER>] vs -9223372036854775808: 	-9223372036854775808
+[<INTEGER>-9223372036854775809</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>-10223372036854775807</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>-50223372036854775807</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>-100223372036854775807</INTEGER>] vs 0: 	failed, as expected
+[<INTEGER>-500223372036854775807</INTEGER>] vs 0: 	failed, as expected
+PASS check-INTEGER (exit status: 0)

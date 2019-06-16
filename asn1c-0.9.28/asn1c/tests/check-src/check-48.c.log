@@ -1,0 +1,73 @@
+make[6]: Entering directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-48'
+/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/asn1c		\
+		-S /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons	\
+		-Wdebug-compiler		\
+		 /home/intest/hozon/asnEDc/asn1c-0.9.28/tests/48-real-life-OK.asn1
+DEBUG: Compiling UserIdentifier at line 19
+DEBUG: Compiling phoneNumber at line 18
+DEBUG: fail to fetch tags for UserIdentifier
+DEBUG: Saving compiled data
+Compiled UserIdentifier.c
+Compiled UserIdentifier.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/IA5String.h	-> IA5String.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/IA5String.c	-> IA5String.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_CHOICE.h	-> constr_CHOICE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_CHOICE.c	-> constr_CHOICE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_application.h	-> asn_application.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_system.h	-> asn_system.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs.h	-> asn_codecs.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_internal.h	-> asn_internal.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.h	-> OCTET_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.c	-> OCTET_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.h	-> BIT_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.c	-> BIT_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.c	-> asn_codecs_prim.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.h	-> asn_codecs_prim.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.h	-> ber_tlv_length.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.c	-> ber_tlv_length.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.h	-> ber_tlv_tag.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.c	-> ber_tlv_tag.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.h	-> ber_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.c	-> ber_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.h	-> der_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.c	-> der_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.h	-> constr_TYPE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.c	-> constr_TYPE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.h	-> constraints.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.c	-> constraints.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.h	-> xer_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.c	-> xer_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.h	-> xer_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.c	-> xer_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.h	-> xer_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.c	-> xer_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.h	-> per_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.c	-> per_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.h	-> per_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.c	-> per_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.h	-> per_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.c	-> per_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.h	-> per_opentype.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.c	-> per_opentype.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/converter-sample.c	-> converter-sample.c
+Generated Makefile.am.sample
+rm -f converter-sample.c
+gcc -DSRCDIR=../. -I. -std=gnu99 -Wno-error=unused-variable -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=cast-align -g -O0 -o check-executable *.c* -lm
+./check-executable
+0123456789
+<UserIdentifier>
+    <phoneNumber>0123456789</phoneNumber>
+</UserIdentifier>
+
+LOADING OBJECT OF SIZE 15
+0123456789
+<UserIdentifier>
+    <phoneNumber>0123456789</phoneNumber>
+</UserIdentifier>
+=> [ A3 0C]:2
+=> [ 16 0A]:2
+=> [ 30 31 32 33 34 35 36 37 38 39]:10
+OUT: [ a3 0c 16 0a 30 31 32 33 34 35 36 37 38 39 7b]
+OK
+make[6]: Leaving directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-48'
+PASS check-src/check-48.c (exit status: 0)

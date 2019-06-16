@@ -1,0 +1,126 @@
+make[6]: Entering directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-72.-fcompound-names'
+/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/asn1c		\
+		-S /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons	\
+		-Wdebug-compiler		\
+		-fcompound-names /home/intest/hozon/asnEDc/asn1c-0.9.28/tests/72-same-names-OK.asn1
+DEBUG: Compiling Type at line 23
+DEBUG: Compiling Member at line 21
+DEBUG: Compiling t1 at line 21
+DEBUG: Compiling t2 at line 23
+DEBUG: Searching tag in complex expression t2:1 at line 23
+DEBUG: Searching tag in complex expression Type2:21 at line 37
+DEBUG: Compiling Type1 at line 29
+DEBUG: Compiling one-name at line 28
+DEBUG: Compiling another-name at line 27
+DEBUG: Compiling a at line 27
+DEBUG: Compiling b at line 27
+DEBUG: Searching tag in complex expression one-name:21 at line 28
+DEBUG: Compiling Type2 at line 37
+DEBUG: Compiling one-name at line 37
+DEBUG: Compiling another-name at line 34
+DEBUG: Compiling a at line 34
+DEBUG: Compiling b at line 36
+DEBUG: member constraint checking code for a
+DEBUG: Compiling two-name at line 43
+DEBUG: Compiling another-name at line 40
+DEBUG: Compiling a at line 40
+DEBUG: Compiling b at line 42
+DEBUG: member constraint checking code for a
+DEBUG: fail to fetch tags for Type2
+DEBUG: Saving compiled data
+Compiled Type.c
+Compiled Type.h
+Compiled Type1.c
+Compiled Type1.h
+Compiled Type2.c
+Compiled Type2.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/INTEGER.h	-> INTEGER.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeEnumerated.h	-> NativeEnumerated.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/INTEGER.c	-> INTEGER.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeEnumerated.c	-> NativeEnumerated.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeInteger.h	-> NativeInteger.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeInteger.c	-> NativeInteger.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SET_OF.h	-> asn_SET_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SET_OF.c	-> asn_SET_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_CHOICE.h	-> constr_CHOICE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_CHOICE.c	-> constr_CHOICE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE.h	-> constr_SEQUENCE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE.c	-> constr_SEQUENCE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SET_OF.h	-> constr_SET_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SET.h	-> constr_SET.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SET.c	-> constr_SET.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SET_OF.c	-> constr_SET_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_application.h	-> asn_application.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_system.h	-> asn_system.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs.h	-> asn_codecs.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_internal.h	-> asn_internal.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.h	-> OCTET_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.c	-> OCTET_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.h	-> BIT_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.c	-> BIT_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.c	-> asn_codecs_prim.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.h	-> asn_codecs_prim.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.h	-> ber_tlv_length.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.c	-> ber_tlv_length.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.h	-> ber_tlv_tag.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.c	-> ber_tlv_tag.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.h	-> ber_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.c	-> ber_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.h	-> der_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.c	-> der_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.h	-> constr_TYPE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.c	-> constr_TYPE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.h	-> constraints.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.c	-> constraints.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.h	-> xer_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.c	-> xer_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.h	-> xer_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.c	-> xer_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.h	-> xer_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.c	-> xer_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.h	-> per_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.c	-> per_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.h	-> per_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.c	-> per_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.h	-> per_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.c	-> per_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.h	-> per_opentype.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.c	-> per_opentype.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/converter-sample.c	-> converter-sample.c
+Generated Makefile.am.sample
+rm -f converter-sample.c
+gcc -DSRCDIR=../. -I. -std=gnu99 -Wno-error=unused-variable -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=cast-align -g -O0 -o check-executable *.c* -lm
+In file included from Type.h:15:0,
+                 from Type.c:8:
+Type.h:27:18: warning: ‘struct Type__Member’ declared inside parameter list
+  A_SET_OF(struct Type__Member {
+                  ^
+./asn_SET_OF.h:17:16: note: in definition of macro ‘A_SET_OF’
+   void (*free)(type *);   \
+                ^
+Type.h:27:18: warning: its scope is only this definition or declaration, which is probably not what you want
+  A_SET_OF(struct Type__Member {
+                  ^
+./asn_SET_OF.h:17:16: note: in definition of macro ‘A_SET_OF’
+   void (*free)(type *);   \
+                ^
+Type2.c:274:2: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+  (unsigned int *)asn_MAP_two_name_mmap_7 /* Mandatory elements map */
+  ^
+In file included from ./Type.h:15:0,
+                 from check-72.-fcompound-names.c:8:
+./Type.h:27:18: warning: ‘struct Type__Member’ declared inside parameter list
+  A_SET_OF(struct Type__Member {
+                  ^
+./asn_SET_OF.h:17:16: note: in definition of macro ‘A_SET_OF’
+   void (*free)(type *);   \
+                ^
+./Type.h:27:18: warning: its scope is only this definition or declaration, which is probably not what you want
+  A_SET_OF(struct Type__Member {
+                  ^
+./asn_SET_OF.h:17:16: note: in definition of macro ‘A_SET_OF’
+   void (*free)(type *);   \
+                ^
+./check-executable
+make[6]: Leaving directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-72.-fcompound-names'
+PASS check-src/check-72.-fcompound-names.c (exit status: 0)

@@ -1,0 +1,165 @@
+make[6]: Entering directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-60'
+/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/asn1c		\
+		-S /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons	\
+		-Wdebug-compiler		\
+		 /home/intest/hozon/asnEDc/asn1c-0.9.28/tests/60-any-OK.asn1
+DEBUG: Compiling T1 at line 15
+DEBUG: Compiling i at line 15
+DEBUG: Compiling any at line 17
+DEBUG: Compiling T2 at line 20
+DEBUG: Compiling i at line 20
+DEBUG: Compiling any at line 21
+DEBUG: Compiling T3 at line 25
+DEBUG: Compiling any1 at line 25
+DEBUG: Compiling any2 at line 27
+DEBUG: Saving compiled data
+Compiled T1.c
+Compiled T1.h
+Compiled T2.c
+Compiled T2.h
+Compiled T3.c
+Compiled T3.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ANY.h	-> ANY.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ANY.c	-> ANY.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/INTEGER.h	-> INTEGER.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeEnumerated.h	-> NativeEnumerated.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/INTEGER.c	-> INTEGER.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeEnumerated.c	-> NativeEnumerated.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeInteger.h	-> NativeInteger.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeInteger.c	-> NativeInteger.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE.h	-> constr_SEQUENCE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE.c	-> constr_SEQUENCE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_application.h	-> asn_application.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_system.h	-> asn_system.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs.h	-> asn_codecs.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_internal.h	-> asn_internal.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.h	-> OCTET_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.c	-> OCTET_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.h	-> BIT_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.c	-> BIT_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.c	-> asn_codecs_prim.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.h	-> asn_codecs_prim.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.h	-> ber_tlv_length.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.c	-> ber_tlv_length.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.h	-> ber_tlv_tag.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.c	-> ber_tlv_tag.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.h	-> ber_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.c	-> ber_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.h	-> der_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.c	-> der_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.h	-> constr_TYPE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.c	-> constr_TYPE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.h	-> constraints.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.c	-> constraints.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.h	-> xer_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.c	-> xer_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.h	-> xer_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.c	-> xer_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.h	-> xer_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.c	-> xer_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.h	-> per_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.c	-> per_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.h	-> per_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.c	-> per_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.h	-> per_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.c	-> per_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.h	-> per_opentype.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.c	-> per_opentype.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/converter-sample.c	-> converter-sample.c
+Generated Makefile.am.sample
+rm -f converter-sample.c
+gcc -DSRCDIR=../. -I. -std=gnu99 -Wno-error=unused-variable -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=cast-align -g -O0 -o check-executable *.c* -lm
+./check-executable
+T1 ::= {
+    i: 112233
+    any: A3 80 01 01 FF 00 00
+}
+
+LOADING OBJECT OF SIZE 15
+T1 ::= {
+    i: 112233
+    any: A3 80 01 01 FF 00 00
+}
+T1 ::= {
+    i: -112233
+    any: 01 01 13
+}
+
+LOADING OBJECT OF SIZE 11
+T1 ::= {
+    i: -112233
+    any: 01 01 13
+}
+T2 ::= {
+    i: 332211
+    any: 
+}
+
+LOADING OBJECT OF SIZE 10
+T2 ::= {
+    i: 332211
+    any: 
+}
+T2 ::= {
+    i: 332211
+    any: A3 80 01 01 FF 00 00
+}
+
+LOADING OBJECT OF SIZE 17
+T2 ::= {
+    i: 332211
+    any: A3 80 01 01 FF 00 00
+}
+T2 ::= {
+    i: 0
+    any: 01 01 13
+}
+
+LOADING OBJECT OF SIZE 11
+T2 ::= {
+    i: 0
+    any: 01 01 13
+}
+T2 ::= {
+    i: 0
+}
+
+LOADING OBJECT OF SIZE 6
+T2 ::= {
+    i: 0
+}
+=> [ 30 0C]:2
+=> [ 02 03]:2
+=> [ 01 B6 69]:3
+=> [ A3 80 01 01 FF 00 00]:7
+OUT: [ 30 0c 02 03 01 b6 69 a3 80 01 01 ff 00 00 ab]
+=> [ 30 08]:2
+=> [ 02 03]:2
+=> [ FE 49 97]:3
+=> [ 01 01 13]:3
+OUT: [ 30 08 02 03 fe 49 97 01 01 13 ab]
+=> [ 30 07]:2
+=> [ 02 03]:2
+=> [ 05 11 B3]:3
+=> [ A0 00]:2
+=> []:0
+OUT: [ 30 07 02 03 05 11 b3 a0 00 ab]
+=> [ 30 0E]:2
+=> [ 02 03]:2
+=> [ 05 11 B3]:3
+=> [ A0 07]:2
+=> [ A3 80 01 01 FF 00 00]:7
+OUT: [ 30 0e 02 03 05 11 b3 a0 07 a3 80 01 01 ff 00 00 ab]
+=> [ 30 08]:2
+=> [ 02 01]:2
+=> [ 00]:1
+=> [ A0 03]:2
+=> [ 01 01 13]:3
+OUT: [ 30 08 02 01 00 a0 03 01 01 13 ab]
+=> [ 30 03]:2
+=> [ 02 01]:2
+=> [ 00]:1
+OUT: [ 30 03 02 01 00 ab]
+OK
+make[6]: Leaving directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-60'
+PASS check-src/check-60.c (exit status: 0)

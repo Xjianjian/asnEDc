@@ -1,0 +1,79 @@
+make[6]: Entering directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-39'
+/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/asn1c		\
+		-S /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons	\
+		-Wdebug-compiler		\
+		 /home/intest/hozon/asnEDc/asn1c-0.9.28/tests/39-sequence-of-OK.asn1
+DEBUG: Compiling T at line 15
+DEBUG: Compiling int at line 15
+DEBUG: Compiling collection at line 17
+DEBUG: Compiling T2 at line 20
+DEBUG: Compiling flag at line 20
+DEBUG: Compiling str at line 21
+DEBUG: Saving compiled data
+Compiled T.c
+Compiled T.h
+Compiled T2.c
+Compiled T2.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/UTF8String.h	-> UTF8String.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BOOLEAN.h	-> BOOLEAN.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BOOLEAN.c	-> BOOLEAN.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/INTEGER.h	-> INTEGER.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeEnumerated.h	-> NativeEnumerated.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/INTEGER.c	-> INTEGER.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeEnumerated.c	-> NativeEnumerated.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeInteger.h	-> NativeInteger.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeInteger.c	-> NativeInteger.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/UTF8String.c	-> UTF8String.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SEQUENCE_OF.h	-> asn_SEQUENCE_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SEQUENCE_OF.c	-> asn_SEQUENCE_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SET_OF.h	-> asn_SET_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SET_OF.c	-> asn_SET_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE.h	-> constr_SEQUENCE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE.c	-> constr_SEQUENCE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE_OF.h	-> constr_SEQUENCE_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE_OF.c	-> constr_SEQUENCE_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SET_OF.h	-> constr_SET_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SET_OF.c	-> constr_SET_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_application.h	-> asn_application.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_system.h	-> asn_system.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs.h	-> asn_codecs.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_internal.h	-> asn_internal.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.h	-> OCTET_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.c	-> OCTET_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.h	-> BIT_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.c	-> BIT_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.c	-> asn_codecs_prim.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.h	-> asn_codecs_prim.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.h	-> ber_tlv_length.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.c	-> ber_tlv_length.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.h	-> ber_tlv_tag.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.c	-> ber_tlv_tag.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.h	-> ber_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.c	-> ber_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.h	-> der_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.c	-> der_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.h	-> constr_TYPE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.c	-> constr_TYPE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.h	-> constraints.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.c	-> constraints.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.h	-> xer_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.c	-> xer_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.h	-> xer_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.c	-> xer_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.h	-> xer_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.c	-> xer_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.h	-> per_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.c	-> per_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.h	-> per_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.c	-> per_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.h	-> per_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.c	-> per_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.h	-> per_opentype.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.c	-> per_opentype.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/converter-sample.c	-> converter-sample.c
+Generated Makefile.am.sample
+rm -f converter-sample.c
+gcc -DSRCDIR=../. -I. -std=gnu99 -Wno-error=unused-variable -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=cast-align -g -O0 -o check-executable *.c* -lm
+./check-executable
+make[6]: Leaving directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-39'
+PASS check-src/check-39.c (exit status: 0)

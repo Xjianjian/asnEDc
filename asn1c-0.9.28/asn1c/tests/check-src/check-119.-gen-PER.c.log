@@ -1,0 +1,1629 @@
+make[6]: Entering directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-119.-gen-PER'
+/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/asn1c		\
+		-S /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons	\
+		-Wdebug-compiler		\
+		-gen-PER /home/intest/hozon/asnEDc/asn1c-0.9.28/tests/119-per-strings-OK.asn1
+DEBUG: Compiling PDU at line 15
+DEBUG: Compiling many at line 15
+DEBUG: Compiling ia5 at line 16
+DEBUG: Compiling ia5-c at line 17
+DEBUG: Compiling ia5-ce at line 18
+DEBUG: Compiling ia5-ir at line 19
+DEBUG: Compiling vs at line 20
+DEBUG: Compiling vs-c at line 21
+DEBUG: Compiling vs-ce at line 22
+DEBUG: Compiling vs-ir at line 23
+DEBUG: Compiling pr at line 24
+DEBUG: Compiling pr-c at line 25
+DEBUG: Compiling pr-ir at line 26
+DEBUG: Compiling ns at line 27
+DEBUG: Compiling ns-c at line 28
+DEBUG: Compiling ns-ce at line 29
+DEBUG: Compiling ns-ir at line 30
+DEBUG: Compiling ut-c at line 31
+DEBUG: Compiling ut-ce at line 32
+DEBUG: Compiling ut-ir at line 33
+DEBUG: Compiling bm at line 34
+DEBUG: Compiling bm-c at line 35
+DEBUG: Compiling bm-cs at line 36
+DEBUG: Compiling bm-ce at line 37
+DEBUG: Compiling bm-ir at line 38
+DEBUG: Compiling us at line 39
+DEBUG: Compiling us-c at line 40
+DEBUG: Compiling us-cs at line 41
+DEBUG: Compiling us-ce at line 42
+DEBUG: Compiling us-ir at line 43
+DEBUG: Compiling real at line 44
+DEBUG: Compiling oid at line 45
+DEBUG: member constraint checking code for ia5_c
+DEBUG: Emitting FROM constraint for ia5-c
+DEBUG: No PER value map necessary for ia5_c
+DEBUG: member constraint checking code for ia5_ce
+DEBUG: Emitting FROM constraint for ia5-ce
+DEBUG: No PER value map necessary for ia5_ce
+DEBUG: member constraint checking code for ia5_ir
+DEBUG: code2value map gen for ia5-ir
+DEBUG: Emitting FROM constraint for ia5-ir
+DEBUG: member constraint checking code for vs_c
+DEBUG: Emitting FROM constraint for vs-c
+DEBUG: No PER value map necessary for vs_c
+DEBUG: member constraint checking code for vs_ce
+DEBUG: Emitting FROM constraint for vs-ce
+DEBUG: No PER value map necessary for vs_ce
+DEBUG: member constraint checking code for vs_ir
+DEBUG: code2value map gen for vs-ir
+DEBUG: Emitting FROM constraint for vs-ir
+DEBUG: member constraint checking code for pr_c
+DEBUG: Emitting FROM constraint for pr-c
+DEBUG: No PER value map necessary for pr_c
+DEBUG: member constraint checking code for pr_ir
+DEBUG: code2value map gen for pr-ir
+DEBUG: Emitting FROM constraint for pr-ir
+DEBUG: member constraint checking code for ns_c
+DEBUG: Emitting FROM constraint for ns-c
+DEBUG: No PER value map necessary for ns_c
+DEBUG: member constraint checking code for ns_ce
+DEBUG: Emitting FROM constraint for ns-ce
+DEBUG: No PER value map necessary for ns_ce
+DEBUG: member constraint checking code for ns_ir
+DEBUG: code2value map gen for ns-ir
+DEBUG: Emitting FROM constraint for ns-ir
+DEBUG: member constraint checking code for ut_c
+DEBUG: member constraint checking code for ut_ce
+DEBUG: member constraint checking code for ut_ir
+DEBUG: member constraint checking code for bm_c
+DEBUG: Emitting FROM constraint for bm-c
+DEBUG: No PER value map necessary for bm_c
+DEBUG: member constraint checking code for bm_cs
+DEBUG: Emitting FROM constraint for bm-cs
+DEBUG: No PER value map necessary for bm_cs
+DEBUG: member constraint checking code for bm_ce
+DEBUG: Emitting FROM constraint for bm-ce
+DEBUG: No PER value map necessary for bm_ce
+DEBUG: member constraint checking code for bm_ir
+DEBUG: code2value map gen for bm-ir
+DEBUG: Emitting FROM constraint for bm-ir
+DEBUG: member constraint checking code for us_c
+DEBUG: Emitting FROM constraint for us-c
+DEBUG: No PER value map necessary for us_c
+DEBUG: member constraint checking code for us_cs
+DEBUG: Emitting FROM constraint for us-cs
+DEBUG: No PER value map necessary for us_cs
+DEBUG: member constraint checking code for us_ce
+DEBUG: Emitting FROM constraint for us-ce
+DEBUG: No PER value map necessary for us_ce
+DEBUG: member constraint checking code for us_ir
+DEBUG: code2value map gen for us-ir
+DEBUG: Emitting FROM constraint for us-ir
+DEBUG: Saving compiled data
+Compiled PDU.c
+Compiled PDU.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BMPString.h	-> BMPString.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BMPString.c	-> BMPString.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/UTF8String.h	-> UTF8String.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/INTEGER.h	-> INTEGER.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeEnumerated.h	-> NativeEnumerated.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/IA5String.h	-> IA5String.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/IA5String.c	-> IA5String.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/INTEGER.c	-> INTEGER.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeEnumerated.c	-> NativeEnumerated.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeInteger.h	-> NativeInteger.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeInteger.c	-> NativeInteger.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeReal.h	-> NativeReal.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NativeReal.c	-> NativeReal.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/REAL.h	-> REAL.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NumericString.h	-> NumericString.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/NumericString.c	-> NumericString.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OBJECT_IDENTIFIER.h	-> OBJECT_IDENTIFIER.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OBJECT_IDENTIFIER.c	-> OBJECT_IDENTIFIER.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/PrintableString.h	-> PrintableString.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/PrintableString.c	-> PrintableString.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/REAL.c	-> REAL.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/UTF8String.c	-> UTF8String.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/UniversalString.h	-> UniversalString.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/UniversalString.c	-> UniversalString.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/VisibleString.h	-> VisibleString.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/VisibleString.c	-> VisibleString.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SEQUENCE_OF.h	-> asn_SEQUENCE_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SEQUENCE_OF.c	-> asn_SEQUENCE_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SET_OF.h	-> asn_SET_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_SET_OF.c	-> asn_SET_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE.h	-> constr_SEQUENCE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE.c	-> constr_SEQUENCE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE_OF.h	-> constr_SEQUENCE_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SEQUENCE_OF.c	-> constr_SEQUENCE_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SET_OF.h	-> constr_SET_OF.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_SET_OF.c	-> constr_SET_OF.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_application.h	-> asn_application.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_system.h	-> asn_system.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs.h	-> asn_codecs.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_internal.h	-> asn_internal.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.h	-> OCTET_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/OCTET_STRING.c	-> OCTET_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.h	-> BIT_STRING.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/BIT_STRING.c	-> BIT_STRING.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.c	-> asn_codecs_prim.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/asn_codecs_prim.h	-> asn_codecs_prim.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.h	-> ber_tlv_length.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_length.c	-> ber_tlv_length.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.h	-> ber_tlv_tag.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_tlv_tag.c	-> ber_tlv_tag.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.h	-> ber_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/ber_decoder.c	-> ber_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.h	-> der_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/der_encoder.c	-> der_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.h	-> constr_TYPE.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constr_TYPE.c	-> constr_TYPE.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.h	-> constraints.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/constraints.c	-> constraints.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.h	-> xer_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_support.c	-> xer_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.h	-> xer_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_decoder.c	-> xer_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.h	-> xer_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/xer_encoder.c	-> xer_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.h	-> per_support.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_support.c	-> per_support.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.h	-> per_decoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_decoder.c	-> per_decoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.h	-> per_encoder.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_encoder.c	-> per_encoder.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.h	-> per_opentype.h
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/per_opentype.c	-> per_opentype.c
+Copied /home/intest/hozon/asnEDc/asn1c-0.9.28/skeletons/converter-sample.c	-> converter-sample.c
+Generated Makefile.am.sample
+rm -f converter-sample.c
+gcc -DSRCDIR=../. -I. -std=gnu99 -Wno-error=unused-variable -g -O2 -Wall -Wcast-qual -Wchar-subscripts -Wmissing-prototypes -Wmissing-declarations -Wno-error=cast-align -g -O0 -o check-executable *.c* -lm
+PDU.c: In function ‘check_permitted_alphabet_29’:
+PDU.c:326:12: warning: unused variable ‘cv’ [-Wunused-variable]
+   uint32_t cv = (ch[0] << 24)
+            ^
+check-119.-gen-PER.c: In function ‘_buf_writer’:
+check-119.-gen-PER.c:42:21: warning: variable ‘bend’ set but not used [-Wunused-but-set-variable]
+  unsigned char *b, *bend;
+                     ^
+./check-executable
+
+Processing file [../data-119-06-P.in]
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 32 FROM [data-119-06-P.in] as XER, chunks 19
+PDU ::= {
+    ia5: ������
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-06-P.in]
+
+Processing file [../data-119-10.in]
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 209 FROM [data-119-10.in] as XER, chunks 19
+PDU ::= {
+    ia5-ir: BAZ
+    vs-ir: BAZ
+    pr-ir: BAZ
+    ns-ir: 19
+    ut-c: Do not respect SIZE constraint
+    ut-ce: Do not respect SIZE constraint
+    ut-ir: ABCabc
+}
+SAVED OBJECT IN SIZE 81
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 1
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 2
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 3
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 4
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 5
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 6
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 7
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 8
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 9
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 10
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 11
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 12
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 13
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 14
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 15
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 16
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 17
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 18
+[left 0, off 81, size 81]
+LOADING OBJECT OF SIZE 81 FROM [buffer] as PER, chunks 19
+[left 0, off 81, size 81]
+PDU ::= {
+    ia5-ir: BAZ
+    vs-ir: BAZ
+    pr-ir: BAZ
+    ns-ir: 19
+    ut-c: Do not respect SIZE constraint
+    ut-ce: Do not respect SIZE constraint
+    ut-ir: ABCabc
+}
+SAVED OBJECT IN SIZE 230
+=== original ===
+<PDU>
+	<ia5-ir>BAZ</ia5-ir>
+	<vs-ir>BAZ</vs-ir>
+	<pr-ir>BAZ</pr-ir>
+	<ns-ir>19</ns-ir>
+	<ut-c>Do not respect SIZE constraint</ut-c>
+	<ut-ce>Do not respect SIZE constraint</ut-ce>
+	<ut-ir>ABCabc</ut-ir>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <ia5-ir>BAZ</ia5-ir>
+    <vs-ir>BAZ</vs-ir>
+    <pr-ir>BAZ</pr-ir>
+    <ns-ir>19</ns-ir>
+    <ut-c>Do not respect SIZE constraint</ut-c>
+    <ut-ce>Do not respect SIZE constraint</ut-ce>
+    <ut-ir>ABCabc</ut-ir>
+</PDU>
+=== end ===
+Finished [data-119-10.in]
+
+Processing file [../data-119-25-P.in]
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 33 FROM [data-119-25-P.in] as XER, chunks 19
+PDU ::= {
+    us-ir: ABC
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-25-P.in]
+
+Processing file [../data-119-18.in]
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 264 FROM [data-119-18.in] as XER, chunks 19
+PDU ::= {
+    many: many ::= {
+        PDU ::= {
+            bm: abra kadabra
+        }
+        PDU ::= {
+            bm-c: AAAAZZZZ
+        }
+        PDU ::= {
+            bm-cs: шесть!
+        }
+        PDU ::= {
+            bm-ce: ABC
+        }
+        PDU ::= {
+            bm-ce: ABCabc (extensibility in play)
+        }
+        PDU ::= {
+            bm-ir: ABXZ
+        }
+    }
+}
+SAVED OBJECT IN SIZE 142
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 1
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 2
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 3
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 4
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 5
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 6
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 7
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 8
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 9
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 10
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 11
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 12
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 13
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 14
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 15
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 16
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 17
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 18
+[left 0, off 142, size 142]
+LOADING OBJECT OF SIZE 142 FROM [buffer] as PER, chunks 19
+[left 0, off 142, size 142]
+PDU ::= {
+    many: many ::= {
+        PDU ::= {
+            bm: abra kadabra
+        }
+        PDU ::= {
+            bm-c: AAAAZZZZ
+        }
+        PDU ::= {
+            bm-cs: шесть!
+        }
+        PDU ::= {
+            bm-ce: ABC
+        }
+        PDU ::= {
+            bm-ce: ABCabc (extensibility in play)
+        }
+        PDU ::= {
+            bm-ir: ABXZ
+        }
+    }
+}
+SAVED OBJECT IN SIZE 438
+=== original ===
+<PDU>
+	<many>
+		<PDU><bm>abra kadabra</bm></PDU>
+		<PDU><bm-c>AAAAZZZZ</bm-c></PDU>
+		<PDU><bm-cs>шесть!</bm-cs></PDU>
+		<PDU><bm-ce>ABC</bm-ce></PDU>
+		<PDU><bm-ce>ABCabc (extensibility in play)</bm-ce></PDU>
+		<PDU><bm-ir>ABXZ</bm-ir></PDU>
+	</many>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <many>
+        <PDU>
+            <bm>abra kadabra</bm>
+        </PDU>
+        <PDU>
+            <bm-c>AAAAZZZZ</bm-c>
+        </PDU>
+        <PDU>
+            <bm-cs>шесть!</bm-cs>
+        </PDU>
+        <PDU>
+            <bm-ce>ABC</bm-ce>
+        </PDU>
+        <PDU>
+            <bm-ce>ABCabc (extensibility in play)</bm-ce>
+        </PDU>
+        <PDU>
+            <bm-ir>ABXZ</bm-ir>
+        </PDU>
+    </many>
+</PDU>
+=== end ===
+Finished [data-119-18.in]
+
+Processing file [../data-119-03.in]
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 25 FROM [data-119-03.in] as XER, chunks 19
+PDU ::= {
+    ns:  
+}
+SAVED OBJECT IN SIZE 6
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 1
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 2
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 3
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 4
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 5
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 6
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 7
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 8
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 9
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 10
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 11
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 12
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 13
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 14
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 15
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 16
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 17
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 18
+[left 0, off 6, size 6]
+LOADING OBJECT OF SIZE 6 FROM [buffer] as PER, chunks 19
+[left 0, off 6, size 6]
+PDU ::= {
+    ns:  
+}
+SAVED OBJECT IN SIZE 28
+=== original ===
+<PDU>
+	<ns> </ns>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <ns> </ns>
+</PDU>
+=== end ===
+Finished [data-119-03.in]
+
+Processing file [../data-119-15.in]
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 42 FROM [data-119-15.in] as XER, chunks 19
+PDU ::= {
+    ut-ir: ABCabc,12234
+}
+SAVED OBJECT IN SIZE 17
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 1
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 2
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 3
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 4
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 5
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 6
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 7
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 8
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 9
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 10
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 11
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 12
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 13
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 14
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 15
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 16
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 17
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 18
+[left 0, off 17, size 17]
+LOADING OBJECT OF SIZE 17 FROM [buffer] as PER, chunks 19
+[left 0, off 17, size 17]
+PDU ::= {
+    ut-ir: ABCabc,12234
+}
+SAVED OBJECT IN SIZE 45
+=== original ===
+<PDU>
+	<ut-ir>ABCabc,12234</ut-ir>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <ut-ir>ABCabc,12234</ut-ir>
+</PDU>
+=== end ===
+Finished [data-119-15.in]
+
+Processing file [../data-119-16.in]
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 38 FROM [data-119-16.in] as XER, chunks 19
+PDU ::= {
+    real: 3.14159265
+}
+SAVED OBJECT IN SIZE 14
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 1
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 2
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 3
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 4
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 5
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 6
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 7
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 8
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 9
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 10
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 11
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 12
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 13
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 14
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 15
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 16
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 17
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 18
+[left 0, off 14, size 14]
+LOADING OBJECT OF SIZE 14 FROM [buffer] as PER, chunks 19
+[left 0, off 14, size 14]
+PDU ::= {
+    real: 3.14159265
+}
+SAVED OBJECT IN SIZE 41
+=== original ===
+<PDU>
+	<real>3.14159265</real>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <real>3.14159265</real>
+</PDU>
+=== end ===
+Finished [data-119-16.in]
+
+Processing file [../data-119-22-P.in]
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 30 FROM [data-119-22-P.in] as XER, chunks 19
+PDU ::= {
+    bm-cs: 
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-22-P.in]
+
+Processing file [../data-119-21-P.in]
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 32 FROM [data-119-21-P.in] as XER, chunks 19
+PDU ::= {
+    us-c: abcd
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-21-P.in]
+
+Processing file [../data-119-07-P.in]
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 42 FROM [data-119-07-P.in] as XER, chunks 19
+PDU ::= {
+    ia5-c: non-capitals
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-07-P.in]
+
+Processing file [../data-119-02.in]
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 34 FROM [data-119-02.in] as XER, chunks 19
+PDU ::= {
+    ns: 0123456789
+}
+SAVED OBJECT IN SIZE 10
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 1
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 2
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 3
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 4
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 5
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 6
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 7
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 8
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 9
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 10
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 11
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 12
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 13
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 14
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 15
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 16
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 17
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 18
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 19
+[left 0, off 10, size 10]
+PDU ::= {
+    ns: 0123456789
+}
+SAVED OBJECT IN SIZE 37
+=== original ===
+<PDU>
+	<ns>0123456789</ns>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <ns>0123456789</ns>
+</PDU>
+=== end ===
+Finished [data-119-02.in]
+
+Processing file [../data-119-09.in]
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 105 FROM [data-119-09.in] as XER, chunks 19
+PDU ::= {
+    ia5: 
+    ia5-c: 
+    ia5-ce: 
+    vs: 
+    vs-c: 
+    vs-ce: 
+}
+SAVED OBJECT IN SIZE 10
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 1
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 2
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 3
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 4
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 5
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 6
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 7
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 8
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 9
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 10
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 11
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 12
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 13
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 14
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 15
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 16
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 17
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 18
+[left 0, off 10, size 10]
+LOADING OBJECT OF SIZE 10 FROM [buffer] as PER, chunks 19
+[left 0, off 10, size 10]
+PDU ::= {
+    ia5: 
+    ia5-c: 
+    ia5-ce: 
+    vs: 
+    vs-c: 
+    vs-ce: 
+}
+SAVED OBJECT IN SIZE 123
+=== original ===
+<PDU>
+	<ia5></ia5>
+	<ia5-c></ia5-c>
+	<ia5-ce></ia5-ce>
+	<vs></vs>
+	<vs-c></vs-c>
+	<vs-ce></vs-ce>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <ia5></ia5>
+    <ia5-c></ia5-c>
+    <ia5-ce></ia5-ce>
+    <vs></vs>
+    <vs-c></vs-c>
+    <vs-ce></vs-ce>
+</PDU>
+=== end ===
+Finished [data-119-09.in]
+
+Processing file [../data-119-11-P.in]
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 36 FROM [data-119-11-P.in] as XER, chunks 19
+PDU ::= {
+    ia5-ir: FAIL
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-11-P.in]
+
+Processing file [../data-119-08.in]
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 61 FROM [data-119-08.in] as XER, chunks 19
+PDU ::= {
+    ia5-c: CAPITALS
+    vs-c: CAPITALS
+}
+SAVED OBJECT IN SIZE 16
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 1
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 2
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 3
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 4
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 5
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 6
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 7
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 8
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 9
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 10
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 11
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 12
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 13
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 14
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 15
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 16
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 17
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 18
+[left 0, off 16, size 16]
+LOADING OBJECT OF SIZE 16 FROM [buffer] as PER, chunks 19
+[left 0, off 16, size 16]
+PDU ::= {
+    ia5-c: CAPITALS
+    vs-c: CAPITALS
+}
+SAVED OBJECT IN SIZE 67
+=== original ===
+<PDU>
+	<ia5-c>CAPITALS</ia5-c>
+	<vs-c>CAPITALS</vs-c>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <ia5-c>CAPITALS</ia5-c>
+    <vs-c>CAPITALS</vs-c>
+</PDU>
+=== end ===
+Finished [data-119-08.in]
+
+Processing file [../data-119-20-P.in]
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 32 FROM [data-119-20-P.in] as XER, chunks 19
+PDU ::= {
+    bm-c: abcd
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-20-P.in]
+
+Processing file [../data-119-05.in]
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 51 FROM [data-119-05.in] as XER, chunks 19
+PDU ::= {
+    ia5: yabloko
+    vs: yabloko
+}
+SAVED OBJECT IN SIZE 19
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 1
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 2
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 3
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 4
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 5
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 6
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 7
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 8
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 9
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 10
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 11
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 12
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 13
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 14
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 15
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 16
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 17
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 18
+[left 0, off 19, size 19]
+LOADING OBJECT OF SIZE 19 FROM [buffer] as PER, chunks 19
+[left 0, off 19, size 19]
+PDU ::= {
+    ia5: yabloko
+    vs: yabloko
+}
+SAVED OBJECT IN SIZE 57
+=== original ===
+<PDU>
+	<ia5>yabloko</ia5>
+	<vs>yabloko</vs>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <ia5>yabloko</ia5>
+    <vs>yabloko</vs>
+</PDU>
+=== end ===
+Finished [data-119-05.in]
+
+Processing file [../data-119-13-P.in]
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 34 FROM [data-119-13-P.in] as XER, chunks 19
+PDU ::= {
+    pr-ir: FAIL
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-13-P.in]
+
+Processing file [../data-119-23-P.in]
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 30 FROM [data-119-23-P.in] as XER, chunks 19
+PDU ::= {
+    us-cs: 
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-23-P.in]
+
+Processing file [../data-119-17.in]
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 48 FROM [data-119-17.in] as XER, chunks 19
+PDU ::= {
+    oid: { 1.3.6.1.4.1.9363.1.5.1 }
+}
+SAVED OBJECT IN SIZE 15
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 1
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 2
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 3
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 4
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 5
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 6
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 7
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 8
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 9
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 10
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 11
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 12
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 13
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 14
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 15
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 16
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 17
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 18
+[left 0, off 15, size 15]
+LOADING OBJECT OF SIZE 15 FROM [buffer] as PER, chunks 19
+[left 0, off 15, size 15]
+PDU ::= {
+    oid: { 1.3.6.1.4.1.9363.1.5.1 }
+}
+SAVED OBJECT IN SIZE 51
+=== original ===
+<PDU>
+	<oid>1.3.6.1.4.1.9363.1.5.1</oid>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <oid>1.3.6.1.4.1.9363.1.5.1</oid>
+</PDU>
+=== end ===
+Finished [data-119-17.in]
+
+Processing file [../data-119-01.in]
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 24 FROM [data-119-01.in] as XER, chunks 19
+PDU ::= {
+    ns: 
+}
+SAVED OBJECT IN SIZE 5
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 1
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 2
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 3
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 4
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 5
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 6
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 7
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 8
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 9
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 10
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 11
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 12
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 13
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 14
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 15
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 16
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 17
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 18
+[left 0, off 5, size 5]
+LOADING OBJECT OF SIZE 5 FROM [buffer] as PER, chunks 19
+[left 0, off 5, size 5]
+PDU ::= {
+    ns: 
+}
+SAVED OBJECT IN SIZE 27
+=== original ===
+<PDU>
+	<ns></ns>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <ns></ns>
+</PDU>
+=== end ===
+Finished [data-119-01.in]
+
+Processing file [../data-119-12-P.in]
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 34 FROM [data-119-12-P.in] as XER, chunks 19
+PDU ::= {
+    vs-ir: FAIL
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-12-P.in]
+
+Processing file [../data-119-24-P.in]
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 33 FROM [data-119-24-P.in] as XER, chunks 19
+PDU ::= {
+    bm-ir: ABC
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-24-P.in]
+
+Processing file [../data-119-14-P.in]
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 32 FROM [data-119-14-P.in] as XER, chunks 19
+PDU ::= {
+    ns-ir: 13
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-14-P.in]
+
+Processing file [../data-119-19.in]
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 259 FROM [data-119-19.in] as XER, chunks 19
+PDU ::= {
+    many: many ::= {
+        PDU ::= {
+            us: kadabra
+        }
+        PDU ::= {
+            us-c: AAAAZZZZ
+        }
+        PDU ::= {
+            us-cs: шесть!
+        }
+        PDU ::= {
+            us-ce: ABC
+        }
+        PDU ::= {
+            us-ce: ABCabc (extensibility in play)
+        }
+        PDU ::= {
+            us-ir: ABXZ
+        }
+    }
+}
+SAVED OBJECT IN SIZE 224
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 1
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 2
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 3
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 4
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 5
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 6
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 7
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 8
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 9
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 10
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 11
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 12
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 13
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 14
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 15
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 16
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 17
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 18
+[left 0, off 224, size 224]
+LOADING OBJECT OF SIZE 224 FROM [buffer] as PER, chunks 19
+[left 0, off 224, size 224]
+PDU ::= {
+    many: many ::= {
+        PDU ::= {
+            us: kadabra
+        }
+        PDU ::= {
+            us-c: AAAAZZZZ
+        }
+        PDU ::= {
+            us-cs: шесть!
+        }
+        PDU ::= {
+            us-ce: ABC
+        }
+        PDU ::= {
+            us-ce: ABCabc (extensibility in play)
+        }
+        PDU ::= {
+            us-ir: ABXZ
+        }
+    }
+}
+SAVED OBJECT IN SIZE 433
+=== original ===
+<PDU>
+	<many>
+		<PDU><us>kadabra</us></PDU>
+		<PDU><us-c>AAAAZZZZ</us-c></PDU>
+		<PDU><us-cs>шесть!</us-cs></PDU>
+		<PDU><us-ce>ABC</us-ce></PDU>
+		<PDU><us-ce>ABCabc (extensibility in play)</us-ce></PDU>
+		<PDU><us-ir>ABXZ</us-ir></PDU>
+	</many>
+</PDU>
+=== re-encoded ===
+<PDU>
+    <many>
+        <PDU>
+            <us>kadabra</us>
+        </PDU>
+        <PDU>
+            <us-c>AAAAZZZZ</us-c>
+        </PDU>
+        <PDU>
+            <us-cs>шесть!</us-cs>
+        </PDU>
+        <PDU>
+            <us-ce>ABC</us-ce>
+        </PDU>
+        <PDU>
+            <us-ce>ABCabc (extensibility in play)</us-ce>
+        </PDU>
+        <PDU>
+            <us-ir>ABXZ</us-ir>
+        </PDU>
+    </many>
+</PDU>
+=== end ===
+Finished [data-119-19.in]
+
+Processing file [../data-119-04-P.in]
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 1
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 2
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 3
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 4
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 5
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 6
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 7
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 8
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 9
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 10
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 11
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 12
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 13
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 14
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 15
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 16
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 17
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 18
+LOADING OBJECT OF SIZE 25 FROM [data-119-04-P.in] as XER, chunks 19
+PDU ::= {
+    ns: z
+}
+SAVED OBJECT IN SIZE 0
+Finished [data-119-04-P.in]
+make[6]: Leaving directory `/home/intest/hozon/asnEDc/asn1c-0.9.28/asn1c/tests/test-check-119.-gen-PER'
+PASS check-src/check-119.-gen-PER.c (exit status: 0)
