@@ -37,10 +37,13 @@ ASN_MODULE_SOURCES=	\
 	RvsVehicleInfo.c	\
 	VehicleSleepStInfo.c	\
 	DiagnosticReqInfo.c	\
-	DiagCommand.c	\
 	DiagnosticRespInfo.c	\
 	DiagCode.c	\
-	DiagnosticStInfo.c
+	DiagnosticStInfo.c	\
+	ImageAcquisitionReqInfo.c	\
+	ImageAcquisitionRespInfo.c	\
+	LogAcquisitionRespInfo.c	\
+	LogAcquisitionResInfo.c
 
 ASN_MODULE_HEADERS=	\
 	Bodyinfo.h	\
@@ -81,10 +84,13 @@ ASN_MODULE_HEADERS=	\
 	RvsVehicleInfo.h	\
 	VehicleSleepStInfo.h	\
 	DiagnosticReqInfo.h	\
-	DiagCommand.h	\
 	DiagnosticRespInfo.h	\
 	DiagCode.h	\
-	DiagnosticStInfo.h
+	DiagnosticStInfo.h	\
+	ImageAcquisitionReqInfo.h	\
+	ImageAcquisitionRespInfo.h	\
+	LogAcquisitionRespInfo.h	\
+	LogAcquisitionResInfo.h
 
 ASN_MODULE_HEADERS+=BOOLEAN.h
 ASN_MODULE_SOURCES+=BOOLEAN.c

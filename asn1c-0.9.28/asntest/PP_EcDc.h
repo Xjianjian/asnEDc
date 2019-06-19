@@ -20,7 +20,15 @@ description： macro definitions
 
 /**********宏常量定义*********/
 #define PP_ECDC_XCALLREQ 1
+#define PP_ECDC_RMTDIAG_REQ 2
+#define PP_ECDC_RMTDIAG_RESP 3
 
+#define PP_ECDC_RMTDIAG_STATUS 4
+#define PP_ECDC_RMTDIAG_IMAGEACQREQ  5
+#define PP_ECDC_RMTDIAG_IMAGEACQRESP  6
+
+#define PP_ECDC_RMTDIAG_LOGACQRESP  7
+#define PP_ECDC_RMTDIAG_LOGACQRES	8
 /***********宏函数***********/
 
 /*******************************************************
@@ -110,6 +118,69 @@ typedef struct
 {
 	long	 xcallType;
 }PP_XcallReq_t;
+
+/* remote Diagnostic*/
+typedef struct
+{
+	long	diagType;
+}PP_DiagnosticReq_t;
+
+typedef struct
+{
+	uint8_t diagCode[5];
+	uint8_t diagCodelen;
+	long 	diagTime;
+}PP_DiagCode_t;
+
+typedef struct
+{
+	long	diagType;
+	int		result;
+	long	failureType;
+	PP_DiagCode_t		diagCode[255];
+	uint8_t diagcodenum;
+}PP_DiagnosticResp_t;
+
+typedef struct
+{
+	PP_DiagnosticResp_t		diagStatus[255];
+	uint8_t faultnum;
+}PP_DiagnosticStatus_t;
+
+typedef struct
+{
+	long dataType;
+	long cameraName;
+	long effectiveTime;
+	long sizeLimit;
+}PP_ImageAcquisitionReq_t;
+
+typedef struct
+{
+	int result;
+	long failureType ;
+	uint8_t fileName[255];
+	uint8_t fileNamelen;
+}PP_ImageAcquisitionResp_t;
+
+
+typedef struct
+{
+	long logType;
+	long logLevel;
+	long startTime;
+	long durationTime;
+}PP_LogAcquisitionResp_t;
+
+typedef struct
+{
+	long logType;
+	int  result;
+	long failureType;
+	uint8_t fileName[255];
+	uint8_t fileNamelen;
+}PP_LogAcquisitionRes_t;
+
 /*******************************************************
 description： typedef definitions
 *******************************************************/
