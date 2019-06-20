@@ -29,6 +29,13 @@ description： macro definitions
 
 #define PP_ECDC_RMTDIAG_LOGACQRESP  7
 #define PP_ECDC_RMTDIAG_LOGACQRES	8
+
+/* 证书 */
+#define PP_ECDC_CREDDOWNLOADREQ 	1
+#define PP_ECDC_CREDDOWNLOADRESP	2
+#define PP_ECDC_CREDDOWNLOADST	 	3
+
+
 /***********宏函数***********/
 
 /*******************************************************
@@ -180,6 +187,19 @@ typedef struct
 	uint8_t fileName[255];
 	uint8_t fileNamelen;
 }PP_LogAcquisitionRes_t;
+
+
+/* 证书 */
+typedef struct
+{
+	long	 mid;
+	long	 eventId;
+	long	 cerType;
+	long	 infoListLength;
+	uint8_t  infoList[65535];
+}PP_CertificateDownloadReq_t;
+
+
 
 /*******************************************************
 description： typedef definitions

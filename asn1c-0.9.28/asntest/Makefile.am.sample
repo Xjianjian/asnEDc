@@ -43,7 +43,10 @@ ASN_MODULE_SOURCES=	\
 	ImageAcquisitionReqInfo.c	\
 	ImageAcquisitionRespInfo.c	\
 	LogAcquisitionRespInfo.c	\
-	LogAcquisitionResInfo.c
+	LogAcquisitionResInfo.c	\
+	CertificateDownloadReqInfo.c	\
+	CertificateDownloadResInfo.c	\
+	CertificateDownloadStatusInfo.c
 
 ASN_MODULE_HEADERS=	\
 	Bodyinfo.h	\
@@ -90,7 +93,10 @@ ASN_MODULE_HEADERS=	\
 	ImageAcquisitionReqInfo.h	\
 	ImageAcquisitionRespInfo.h	\
 	LogAcquisitionRespInfo.h	\
-	LogAcquisitionResInfo.h
+	LogAcquisitionResInfo.h	\
+	CertificateDownloadReqInfo.h	\
+	CertificateDownloadResInfo.h	\
+	CertificateDownloadStatusInfo.h
 
 ASN_MODULE_HEADERS+=BOOLEAN.h
 ASN_MODULE_SOURCES+=BOOLEAN.c

@@ -64,6 +64,10 @@ description： include the header file
 #include "LogAcquisitionRespInfo.h"
 #include "LogAcquisitionResInfo.h"
 
+#include "CertificateDownloadReqInfo.h"
+#include "CertificateDownloadResInfo.h"
+#include "CertificateDownloadStatusInfo.h"
+
 #include "per_encoder.h"
 #include "per_decoder.h"
 
@@ -104,6 +108,11 @@ static asn_TYPE_descriptor_t *pduType_GIAG_imageAcqResp = &asn_DEF_ImageAcquisit
 static asn_TYPE_descriptor_t *pduType_GIAG_LogAcqResp = &asn_DEF_LogAcquisitionRespInfo;
 static asn_TYPE_descriptor_t *pduType_GIAG_LogAcqRes = &asn_DEF_LogAcquisitionResInfo;
 
+static asn_TYPE_descriptor_t *pduType_GIAG_CertDLReq = &asn_DEF_CertificateDownloadReqInfo;
+static asn_TYPE_descriptor_t *pduType_GIAG_CertDLResp = &asn_DEF_CertificateDownloadResInfo;
+static asn_TYPE_descriptor_t *pduType_GIAG_CertDLSt = &asn_DEF_CertificateDownloadStatusInfo;
+
+
 static PP_key_t PP_key;
 /*******************************************************
 description： function declaration
@@ -118,6 +127,9 @@ static int PP_decodeMsgData(uint8_t *LeMessageData,int LeMessageDataLen,void *Di
 static void PP_xcallreq(void);
 static long PP_BSEndianReverse(long value);
 
+static int PP_CertmsgPackageEncoding(uint8_t type,uint8_t *msgData,int *msgDataLen, void *appchoice);
+static int PP_CertdecodeMsgData(uint8_t type,uint8_t *LeMessageData,int LeMessageDataLen,void *appData);
+
 
 static void PP_remotDiagnosticReq(void);
 static void PP_remotDiagnosticResp(void);
@@ -126,6 +138,8 @@ static void PP_remotImageAcquisitionReq(void);
 static void PP_remotImageAcquisitionResp(void);
 static void PP_remotLogAcquisitionResp(void);
 static void PP_remotLogAcquisitionRes(void);
+
+static void PP_remoteCertificateDownloadReq(void);
 /******************************************************
 description： function code
 ******************************************************/
@@ -151,7 +165,10 @@ void main(void)
 	//PP_remotImageAcquisitionReq();
 	//PP_remotImageAcquisitionResp();
 	//PP_remotLogAcquisitionResp();
-	PP_remotLogAcquisitionRes();
+	//PP_remotLogAcquisitionRes();
+
+
+	PP_remoteCertificateDownloadReq();
 
 }
 
@@ -715,6 +732,77 @@ static void PP_remotLogAcquisitionRes(void)
 }
 
 /******************************************************
+*函数名：
+
+*形  参：
+
+*返回值：
+
+*描  述：证书请求( MID=1)
+
+*备  注：
+******************************************************/
+static void PP_remoteCertificateDownloadReq(void)
+{
+	PP_pack_t pp_pack;
+	PP_DisptrBody_t disbody;
+	PP_CertificateDownloadReq_t app_CertificateDownloadReq;
+	int msgdatalen;
+	int i;
+	memset(&pp_pack,0 , sizeof(PP_pack_t));
+	memset(&disbody,0 , sizeof(PP_DisptrBody_t));
+	memset(&app_CertificateDownloadReq,0 , sizeof(PP_CertificateDownloadReq_t));
+/***************************
+ * 编码
+ */
+	pp_pack.Header.sign[0] = '*';
+	pp_pack.Header.sign[1] = '*';
+	pp_pack.Header.ver.Byte = 0x30;
+	pp_pack.Header.commtype.Byte = 0xe1;
+	pp_pack.Header.opera = 0x02;
+	pp_pack.Header.nonce  = PP_BSEndianReverse(0);
+	pp_pack.Header.tboxid = PP_BSEndianReverse(28);
+
+#if 0
+	/*body*/
+	memcpy(disbody.aID,"140",3);
+	disbody.mID = 7;
+	disbody.eventId = 140 + 7;
+	disbody.eventTime = 123456;
+	disbody.expTime   = 123456;
+	disbody.ulMsgCnt++;	/* OPTIONAL */
+	disbody.appDataProVer = 256;
+	disbody.testFlag = 1;
+#endif
+
+	/*app data*/
+	app_CertificateDownloadReq.mid = 1;
+	app_CertificateDownloadReq.eventId = 1;
+	app_CertificateDownloadReq.cerType = 1;
+	app_CertificateDownloadReq.infoListLength = sizeof("hozon_credential") - 1;
+	memcpy(app_CertificateDownloadReq.infoList,"hozon_credential",app_CertificateDownloadReq.infoListLength);
+
+	if(0 == PP_CertmsgPackageEncoding(PP_ECDC_CREDDOWNLOADREQ,pp_pack.msgdata,&msgdatalen,&app_CertificateDownloadReq))
+	{
+		pp_pack.Header.msglen = PP_BSEndianReverse(18 + msgdatalen);
+		uint8_t *pack_ptr = pp_pack.Header.sign;
+		fprintf(stdout,"\n");
+		fprintf(stdout,"\npackage is:\n");
+		for(i = 0;i< (18 + msgdatalen);i++)
+		{
+			fprintf(stdout,"0x%x ", pack_ptr[i]);
+		}
+	}
+
+/***************************
+ * 解码
+ */
+	memset(&disbody,0 , sizeof(PP_DisptrBody_t));
+	memset(&app_CertificateDownloadReq,0 , sizeof(PP_CertificateDownloadReq_t));
+	PP_CertdecodeMsgData(PP_ECDC_CREDDOWNLOADREQ,pp_pack.msgdata,msgdatalen,&app_CertificateDownloadReq);
+}
+
+/******************************************************
 *函数名：PrvtPro_msgPackage
 
 *形  参：
@@ -1028,6 +1116,141 @@ static int PP_msgPackageEncoding(uint8_t type,uint8_t *msgData,int *msgDataLen, 
 }
 
 /******************************************************
+*函数名：PrvtPro_msgPackage
+
+*形  参：
+
+*返回值：
+
+*描  述：证书数据打包编码
+
+*备  注：
+******************************************************/
+static int PP_CertmsgPackageEncoding(uint8_t type,uint8_t *msgData,int *msgDataLen, void *appchoice)
+{
+	static uint8_t key;
+	int i,j;
+
+	asn_enc_rval_t ec;
+	fprintf(stdout, "**uper encode:appdata**\n");
+
+	memset(&PP_key,0 , sizeof(PP_key_t));
+	PP_key.type = 1;
+	switch(type)
+	{
+		case PP_ECDC_CREDDOWNLOADREQ:
+		{
+			PP_CertificateDownloadReq_t *PP_CertificateDownloadReq_ptr = (PP_CertificateDownloadReq_t*)appchoice;
+			CertificateDownloadReqInfo_t CertificateDownloadReq;
+
+
+			memset(&CertificateDownloadReq,0 , sizeof(CertificateDownloadReqInfo_t));
+			CertificateDownloadReq.mid = PP_CertificateDownloadReq_ptr->mid;
+			CertificateDownloadReq.eventId = PP_CertificateDownloadReq_ptr->eventId;
+			CertificateDownloadReq.cerType = PP_CertificateDownloadReq_ptr->cerType;
+			CertificateDownloadReq.infoListLength = PP_CertificateDownloadReq_ptr->infoListLength;
+			CertificateDownloadReq.infoList.buf = PP_CertificateDownloadReq_ptr->infoList;
+			CertificateDownloadReq.infoList.size = PP_CertificateDownloadReq_ptr->infoListLength;
+
+			ec = uper_encode(pduType_GIAG_CertDLReq,(void *) &CertificateDownloadReq,PP_writeout,&PP_key);
+			if(ec.encoded  == -1)
+			{
+				fprintf(stdout, "Could not encode MessageFrame");
+				return -1;
+			}
+		}
+		break;
+		default:
+		{
+			fprintf(stdout,"unknow application request");
+		}
+		break;
+	}
+
+/*********************************************
+				编码
+*********************************************/
+	uint8_t *appdata_ptr = PP_key.appdata;
+	fprintf(stdout,"appdata is:\n");
+	for(i = 0;i< PP_key.appdatalen;i++)
+	{
+		fprintf(stdout,"0x%x ", appdata_ptr[i]);
+	}
+	fprintf(stdout,"\n");
+/*********************************************
+				填充 message data
+*********************************************/
+	int tboxmsglen = 0;
+	msgData[tboxmsglen++] = PP_key.appdatalen +1;//填充 dispatcher header
+	for(i = 0;i < PP_key.appdatalen;i++)
+	{
+		msgData[tboxmsglen++]= PP_key.appdata[i];
+	}
+	*msgDataLen = 1 + PP_key.appdatalen;//填充 message data lengtn
+
+	return 0;
+}
+
+/******************************************************
+*函数名：PrvtPro_decodeMsgData
+
+*形  参：
+
+*返回值：
+
+*描  述：证书解码message data
+
+*备  注：
+******************************************************/
+static int PP_CertdecodeMsgData(uint8_t type,uint8_t *LeMessageData,int LeMessageDataLen,void *appData)
+{
+	asn_dec_rval_t dc;
+	asn_codec_ctx_t *asn_codec_ctx = 0 ;
+	int i,j;
+
+	fprintf(stdout, "\n\n**uper decode:**\n");
+	fprintf(stdout, "dis header length = %d\n",LeMessageData[0]);
+
+	switch(type)
+	{
+		case PP_ECDC_CREDDOWNLOADREQ:
+		{
+			PP_CertificateDownloadReq_t *PP_CertificateDownloadReq_ptr = (PP_CertificateDownloadReq_t*)appData;
+
+			CertificateDownloadReqInfo_t CertificateDownloadReq;
+			CertificateDownloadReqInfo_t *CertificateDownloadReq_ptr = &CertificateDownloadReq;
+			memset(&CertificateDownloadReq,0 , sizeof(CertificateDownloadReqInfo_t));
+
+			dc = uper_decode(asn_codec_ctx,pduType_GIAG_CertDLReq,(void *) &CertificateDownloadReq_ptr, \
+								 &LeMessageData[1],LeMessageData[0] -1,0,0);
+			if(dc.code  != RC_OK)
+			{
+				fprintf(stdout, "Could not decode dispatcher header Frame");
+				return -1;
+			}
+
+			PP_CertificateDownloadReq_ptr->mid = CertificateDownloadReq.mid;
+			fprintf(stdout, "PP_CertificateDownloadReq_ptr->mid = %ld\n",PP_CertificateDownloadReq_ptr->mid);
+			PP_CertificateDownloadReq_ptr->eventId = CertificateDownloadReq.eventId;
+			fprintf(stdout, "PP_CertificateDownloadReq_ptr->eventId = %ld\n",PP_CertificateDownloadReq_ptr->eventId);
+			PP_CertificateDownloadReq_ptr->cerType = CertificateDownloadReq.cerType;
+			fprintf(stdout, "PP_CertificateDownloadReq_ptr->cerType = %ld\n",PP_CertificateDownloadReq_ptr->cerType);
+			PP_CertificateDownloadReq_ptr->infoListLength = CertificateDownloadReq.infoListLength;
+			fprintf(stdout, "PP_CertificateDownloadReq_ptr->infoListLength = %ld\n",PP_CertificateDownloadReq_ptr->infoListLength);
+
+			memcpy(PP_CertificateDownloadReq_ptr->infoList,CertificateDownloadReq.infoList.buf, \
+					CertificateDownloadReq.infoList.size);
+			fprintf(stdout, "PP_CertificateDownloadReq_ptr->infoList = %s\n",PP_CertificateDownloadReq_ptr->infoList);
+			fprintf(stdout, "CertificateDownloadReq.infoList.size = %ld\n",CertificateDownloadReq.infoList.size);
+
+		}
+		break;
+		default:
+		break;
+	}
+}
+
+/******************************************************
 *函数名：PrvtPro_decodeMsgData
 
 *形  参：
@@ -1058,7 +1281,7 @@ static int PP_decodeMsgData(uint8_t *LeMessageData,int LeMessageDataLen,void *Di
 		fprintf(stdout, "Could not decode dispatcher header Frame");
 		return -1;
 	}
-	
+
 	if(msgDataBody != NULL)
 	{
 		memcpy(msgDataBody->aID,RxBodydata.aID.buf,sizeof(char)*3);
