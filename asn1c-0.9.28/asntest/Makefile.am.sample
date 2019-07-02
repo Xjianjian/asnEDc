@@ -27,6 +27,7 @@ ASN_MODULE_SOURCES=	\
 	RmtRvsposInfo.c	\
 	RvsBasicStatus.c	\
 	BookingResp.c	\
+	HUBookingResp.c	\
 	VehicleStReqInfo.c	\
 	VehicleStRespInfo.c	\
 	VSgpspos.c	\
@@ -43,10 +44,7 @@ ASN_MODULE_SOURCES=	\
 	ImageAcquisitionReqInfo.c	\
 	ImageAcquisitionRespInfo.c	\
 	LogAcquisitionRespInfo.c	\
-	LogAcquisitionResInfo.c	\
-	CertificateDownloadReqInfo.c	\
-	CertificateDownloadResInfo.c	\
-	CertificateDownloadStatusInfo.c
+	LogAcquisitionResInfo.c
 
 ASN_MODULE_HEADERS=	\
 	Bodyinfo.h	\
@@ -77,6 +75,7 @@ ASN_MODULE_HEADERS=	\
 	RmtRvsposInfo.h	\
 	RvsBasicStatus.h	\
 	BookingResp.h	\
+	HUBookingResp.h	\
 	VehicleStReqInfo.h	\
 	VehicleStRespInfo.h	\
 	VSgpspos.h	\
@@ -93,10 +92,7 @@ ASN_MODULE_HEADERS=	\
 	ImageAcquisitionReqInfo.h	\
 	ImageAcquisitionRespInfo.h	\
 	LogAcquisitionRespInfo.h	\
-	LogAcquisitionResInfo.h	\
-	CertificateDownloadReqInfo.h	\
-	CertificateDownloadResInfo.h	\
-	CertificateDownloadStatusInfo.h
+	LogAcquisitionResInfo.h
 
 ASN_MODULE_HEADERS+=BOOLEAN.h
 ASN_MODULE_SOURCES+=BOOLEAN.c
@@ -184,5 +180,5 @@ clean:
 regen: regenerate-from-asn1-source
 
 regenerate-from-asn1-source:
-	asn1c -gen-PER HOZON_PRIV_v1.0.asn
+	../asn1c/asn1c -gen-PER HOZON_PRIV_v1.0.asn
 

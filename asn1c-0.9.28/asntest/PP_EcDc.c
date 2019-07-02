@@ -64,9 +64,10 @@ description： include the header file
 #include "LogAcquisitionRespInfo.h"
 #include "LogAcquisitionResInfo.h"
 
-#include "CertificateDownloadReqInfo.h"
-#include "CertificateDownloadResInfo.h"
-#include "CertificateDownloadStatusInfo.h"
+
+//#include "CertificateDownloadReqInfo.h"
+//#include "CertificateDownloadResInfo.h"
+//#include "CertificateDownloadStatusInfo.h"
 
 #include "per_encoder.h"
 #include "per_decoder.h"
@@ -108,9 +109,9 @@ static asn_TYPE_descriptor_t *pduType_GIAG_imageAcqResp = &asn_DEF_ImageAcquisit
 static asn_TYPE_descriptor_t *pduType_GIAG_LogAcqResp = &asn_DEF_LogAcquisitionRespInfo;
 static asn_TYPE_descriptor_t *pduType_GIAG_LogAcqRes = &asn_DEF_LogAcquisitionResInfo;
 
-static asn_TYPE_descriptor_t *pduType_GIAG_CertDLReq = &asn_DEF_CertificateDownloadReqInfo;
-static asn_TYPE_descriptor_t *pduType_GIAG_CertDLResp = &asn_DEF_CertificateDownloadResInfo;
-static asn_TYPE_descriptor_t *pduType_GIAG_CertDLSt = &asn_DEF_CertificateDownloadStatusInfo;
+//static asn_TYPE_descriptor_t *pduType_GIAG_CertDLReq = &asn_DEF_CertificateDownloadReqInfo;
+//static asn_TYPE_descriptor_t *pduType_GIAG_CertDLResp = &asn_DEF_CertificateDownloadResInfo;
+//static asn_TYPE_descriptor_t *pduType_GIAG_CertDLSt = &asn_DEF_CertificateDownloadStatusInfo;
 
 
 static PP_key_t PP_key;
@@ -127,8 +128,8 @@ static int PP_decodeMsgData(uint8_t *LeMessageData,int LeMessageDataLen,void *Di
 static void PP_xcallreq(void);
 static long PP_BSEndianReverse(long value);
 
-static int PP_CertmsgPackageEncoding(uint8_t type,uint8_t *msgData,int *msgDataLen, void *appchoice);
-static int PP_CertdecodeMsgData(uint8_t type,uint8_t *LeMessageData,int LeMessageDataLen,void *appData);
+//static int PP_CertmsgPackageEncoding(uint8_t type,uint8_t *msgData,int *msgDataLen, void *appchoice);
+//static int PP_CertdecodeMsgData(uint8_t type,uint8_t *LeMessageData,int LeMessageDataLen,void *appData);
 
 
 static void PP_remotDiagnosticReq(void);
@@ -139,7 +140,7 @@ static void PP_remotImageAcquisitionResp(void);
 static void PP_remotLogAcquisitionResp(void);
 static void PP_remotLogAcquisitionRes(void);
 
-static void PP_remoteCertificateDownloadReq(void);
+//static void PP_remoteCertificateDownloadReq(void);
 /******************************************************
 description： function code
 ******************************************************/
@@ -168,7 +169,9 @@ void main(void)
 	//PP_remotLogAcquisitionRes();
 
 
-	PP_remoteCertificateDownloadReq();
+	//PP_remoteCertificateDownloadReq();
+
+
 
 }
 
@@ -731,6 +734,7 @@ static void PP_remotLogAcquisitionRes(void)
 	PP_decodeMsgData(pp_pack.msgdata,msgdatalen,&disbody,&app_LogAcquisitionRes);
 }
 
+#if 0
 /******************************************************
 *函数名：
 
@@ -801,6 +805,7 @@ static void PP_remoteCertificateDownloadReq(void)
 	memset(&app_CertificateDownloadReq,0 , sizeof(PP_CertificateDownloadReq_t));
 	PP_CertdecodeMsgData(PP_ECDC_CREDDOWNLOADREQ,pp_pack.msgdata,msgdatalen,&app_CertificateDownloadReq);
 }
+#endif
 
 /******************************************************
 *函数名：PrvtPro_msgPackage
@@ -1115,6 +1120,7 @@ static int PP_msgPackageEncoding(uint8_t type,uint8_t *msgData,int *msgDataLen, 
 	return 0;
 }
 
+#if 0
 /******************************************************
 *函数名：PrvtPro_msgPackage
 
@@ -1191,6 +1197,7 @@ static int PP_CertmsgPackageEncoding(uint8_t type,uint8_t *msgData,int *msgDataL
 	return 0;
 }
 
+
 /******************************************************
 *函数名：PrvtPro_decodeMsgData
 
@@ -1249,7 +1256,7 @@ static int PP_CertdecodeMsgData(uint8_t type,uint8_t *LeMessageData,int LeMessag
 		break;
 	}
 }
-
+#endif
 /******************************************************
 *函数名：PrvtPro_decodeMsgData
 
