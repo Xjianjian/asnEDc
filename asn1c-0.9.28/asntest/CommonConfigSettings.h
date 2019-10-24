@@ -13,6 +13,7 @@
 
 /* Including external dependencies */
 #include <BOOLEAN.h>
+#include <NativeInteger.h>
 #include <constr_SEQUENCE.h>
 
 #ifdef __cplusplus
@@ -34,6 +35,11 @@ typedef struct CommonConfigSettings {
 	BOOLEAN_t	 onlineInfEnabled;
 	BOOLEAN_t	 rChargeEnabled;
 	BOOLEAN_t	 btKeyEntryEnabled;
+	BOOLEAN_t	 carEmpowerEnabled;
+	BOOLEAN_t	 eventReportEnabled;
+	BOOLEAN_t	 carAlarmEnabled;
+	long	 heartbeatTimeout;
+	long	 dormancyHeartbeatTimeout;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;

@@ -42,9 +42,10 @@ ASN_MODULE_SOURCES=	\
 	DiagCode.c	\
 	DiagnosticStInfo.c	\
 	ImageAcquisitionReqInfo.c	\
-	ImageAcquisitionRespInfo.c	\
 	LogAcquisitionRespInfo.c	\
-	LogAcquisitionResInfo.c
+	FaultCodeClearanceReqInfo.c	\
+	FaultCodeClearanceRespInfo.c	\
+	CanBusMessageCollectReqInfo.c
 
 ASN_MODULE_HEADERS=	\
 	Bodyinfo.h	\
@@ -90,9 +91,10 @@ ASN_MODULE_HEADERS=	\
 	DiagCode.h	\
 	DiagnosticStInfo.h	\
 	ImageAcquisitionReqInfo.h	\
-	ImageAcquisitionRespInfo.h	\
 	LogAcquisitionRespInfo.h	\
-	LogAcquisitionResInfo.h
+	FaultCodeClearanceReqInfo.h	\
+	FaultCodeClearanceRespInfo.h	\
+	CanBusMessageCollectReqInfo.h
 
 ASN_MODULE_HEADERS+=BOOLEAN.h
 ASN_MODULE_SOURCES+=BOOLEAN.c

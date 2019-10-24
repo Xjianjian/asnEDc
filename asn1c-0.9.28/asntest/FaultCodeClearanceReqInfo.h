@@ -5,14 +5,13 @@
  * 	`asn1c -gen-PER`
  */
 
-#ifndef	_DiagCode_H_
-#define	_DiagCode_H_
+#ifndef	_FaultCodeClearanceReqInfo_H_
+#define	_FaultCodeClearanceReqInfo_H_
 
 
 #include <asn_application.h>
 
 /* Including external dependencies */
-#include <IA5String.h>
 #include <NativeInteger.h>
 #include <constr_SEQUENCE.h>
 
@@ -20,23 +19,20 @@
 extern "C" {
 #endif
 
-/* DiagCode */
-typedef struct DiagCode {
-	IA5String_t	 diagCode;
-	long	 faultCodeType;
-	long	 lowByte;
-	long	 diagTime;
+/* FaultCodeClearanceReqInfo */
+typedef struct FaultCodeClearanceReqInfo {
+	long	 diagType;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
-} DiagCode_t;
+} FaultCodeClearanceReqInfo_t;
 
 /* Implementation */
-extern asn_TYPE_descriptor_t asn_DEF_DiagCode;
+extern asn_TYPE_descriptor_t asn_DEF_FaultCodeClearanceReqInfo;
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif	/* _DiagCode_H_ */
+#endif	/* _FaultCodeClearanceReqInfo_H_ */
 #include <asn_internal.h>

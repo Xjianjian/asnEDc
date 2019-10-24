@@ -5,8 +5,8 @@
  * 	`asn1c -gen-PER`
  */
 
-#ifndef	_LogAcquisitionResInfo_H_
-#define	_LogAcquisitionResInfo_H_
+#ifndef	_FaultCodeClearanceRespInfo_H_
+#define	_FaultCodeClearanceRespInfo_H_
 
 
 #include <asn_application.h>
@@ -14,30 +14,28 @@
 /* Including external dependencies */
 #include <NativeInteger.h>
 #include <BOOLEAN.h>
-#include <IA5String.h>
 #include <constr_SEQUENCE.h>
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-/* LogAcquisitionResInfo */
-typedef struct LogAcquisitionResInfo {
-	long	 logType;
+/* FaultCodeClearanceRespInfo */
+typedef struct FaultCodeClearanceRespInfo {
+	long	 diagType;
 	BOOLEAN_t	 result;
 	long	*failureType	/* OPTIONAL */;
-	IA5String_t	*fileName	/* OPTIONAL */;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
-} LogAcquisitionResInfo_t;
+} FaultCodeClearanceRespInfo_t;
 
 /* Implementation */
-extern asn_TYPE_descriptor_t asn_DEF_LogAcquisitionResInfo;
+extern asn_TYPE_descriptor_t asn_DEF_FaultCodeClearanceRespInfo;
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif	/* _LogAcquisitionResInfo_H_ */
+#endif	/* _FaultCodeClearanceRespInfo_H_ */
 #include <asn_internal.h>

@@ -123,7 +123,12 @@ CommonConfigSettings ::= SEQUENCE
 	journeysEnabled		BOOLEAN, -- Default false
 	onlineInfEnabled	BOOLEAN, -- Default false
 	rChargeEnabled		BOOLEAN, -- Default false
-	btKeyEntryEnabled	BOOLEAN  -- Default false
+	btKeyEntryEnabled	BOOLEAN,  -- Default false
+	carEmpowerEnabled 	BOOLEAN, -- Default false
+	eventReportEnabled 	BOOLEAN, -- Default false
+	carAlarmEnabled 	BOOLEAN,  -- Default false	
+	heartbeatTimeout 	INTEGER(0..65535), --
+	dormancyHeartbeatTimeout 	INTEGER(0..65535) --	
 }
 
 ExtendConfigSettings ::= SEQUENCE
@@ -205,7 +210,12 @@ CommonConfigSet ::= SEQUENCE
 	journeysEnabled		BOOLEAN, -- Default false
 	onlineInfEnabled	BOOLEAN, -- Default false
 	rChargeEnabled		BOOLEAN, -- Default false
-	btKeyEntryEnabled	BOOLEAN  -- Default false
+	btKeyEntryEnabled	BOOLEAN,  -- Default false
+	carEmpowerEnabled 	BOOLEAN, -- Default false
+	eventReportEnabled 	BOOLEAN, -- Default false
+	carAlarmEnabled 	BOOLEAN, -- Default false
+	heartbeatTimeout 	INTEGER(0..65535), --
+	dormancyHeartbeatTimeout 	INTEGER(0..65535) --
 }
 
 ExtendConfigSet ::= SEQUENCE
@@ -266,7 +276,7 @@ RvsBasicStatus ::= SEQUENCE
 	sunroofStatus		BOOLEAN	OPTIONAL, --
 	engineStatus		BOOLEAN, --
 	accStatus			BOOLEAN, --
-	accTemp				INTEGER(18..36)	OPTIONAL, -- 
+	accTemp				INTEGER(16..36)	OPTIONAL, -- 
 	accMode				INTEGER(0..3)	OPTIONAL, -- 
 	accBlowVolume		INTEGER(0..7)	OPTIONAL, -- 
 	innerTemp			INTEGER(0..125), -- 
@@ -302,7 +312,7 @@ RvsBasicStatus ::= SEQUENCE
 	gearPosition		INTEGER(0..255), -- 
 	insulationRstance	INTEGER(0..60000), -- 
 	acceleratePedalprc	INTEGER(0..100), -- 
-	deceleratePedalprc	INTEGER(0..100), -- 
+	deceleratePedalprc	INTEGER(0..101), -- 
 	canBusActive		BOOLEAN, --
 	bonnetStatus		BOOLEAN, --
 	lockStatus			BOOLEAN, --
@@ -331,7 +341,7 @@ HUBookingResp ::= SEQUENCE
 	rvcReqHours			INTEGER(0..23), --	
 	rvcReqMin 			INTEGER(0..59), --	
 	rvcReqEq 			INTEGER(0..100) OPTIONAL, --	
-	rvcReqCycle 		OCTET STRING(SIZE(8)) OPTIONAL, --
+	rvcReqCycle 		OCTET STRING(SIZE(1)) OPTIONAL, --
 	bookingId 			INTEGER(0..2147483647) OPTIONAL -- 
 }
 
@@ -412,8 +422,10 @@ DiagnosticRespInfo ::= SEQUENCE --mid = 2
 
 DiagCode ::= SEQUENCE
 {
-	diagCode 			IA5String(SIZE(5)), -- 
-	diagTime			INTEGER(0..2147483647) -- 
+	diagCode 			IA5String(SIZE(5)), --
+	faultCodeType 		INTEGER(0..255), --
+	lowByte 			INTEGER(0..255), --
+	diagTime			INTEGER(0..2147483647) --
 }
 
 DiagnosticStInfo ::= SEQUENCE --mid = 3
@@ -424,19 +436,11 @@ DiagnosticStInfo ::= SEQUENCE --mid = 3
 ImageAcquisitionReqInfo ::= SEQUENCE  --mid = 4
 {
 	dataType 			INTEGER(0..255), -- 
-	cameraName			INTEGER(0..255), -- 
-	effectiveTime		INTEGER(0..2147483647), -- 
-	sizeLimit			INTEGER(0..2147483647) -- 
+	cameraName 			INTEGER(0..255), -- 
+	durationTime		INTEGER(0..65535) -- 
 }
 
-ImageAcquisitionRespInfo ::= SEQUENCE --mid = 5
-{
-	result 				BOOLEAN, --
-	failureType			INTEGER(0..255) OPTIONAL, -- 
-	fileName 			IA5String(SIZE(1..255)) OPTIONAL --
-}
-
-LogAcquisitionRespInfo ::= SEQUENCE --mid = 6
+LogAcquisitionRespInfo ::= SEQUENCE --mid = 5
 {
 	logType  			INTEGER(0..255), -- 
 	logLevel			INTEGER(0..255), -- 
@@ -444,12 +448,22 @@ LogAcquisitionRespInfo ::= SEQUENCE --mid = 6
 	durationTime 		INTEGER(0..65535) -- 
 }
 
-LogAcquisitionResInfo ::= SEQUENCE --mid = 7
+FaultCodeClearanceReqInfo ::= SEQUENCE --mid = 6
 {
-	logType  			INTEGER(0..255), -- 
-	result 				BOOLEAN, --
-	failureType			INTEGER(0..255) OPTIONAL, -- 
-	fileName 			IA5String(SIZE(1..255)) OPTIONAL -- 
+	diagType 			INTEGER(0..255) -- 
 }
+
+FaultCodeClearanceRespInfo ::= SEQUENCE --mid = 7
+{
+	diagType			INTEGER(0..255), -- 
+	result				BOOLEAN, --
+	failureType			INTEGER(0..255) OPTIONAL --
+}
+
+CanBusMessageCollectReqInfo ::= SEQUENCE --mid = 8
+{
+	durationTime 			INTEGER(0..65535) -- 
+}
+
 
 END
