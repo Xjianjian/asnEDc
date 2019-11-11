@@ -62,6 +62,7 @@ static int PP_msgPackageEncoding(uint8_t type,uint8_t *msgData,int *msgDataLen, 
 static int PP_decodeMsgData(uint8_t *LeMessageData,int LeMessageDataLen,void *DisBody,void *appData);
 static long PP_BSEndianReverse(long value);
 static void PP_remotDiagnosticStatus(void);
+static char *PP_rmtCfg_ultoa(unsigned long value, char *string, int radix);
 //static void PP_remoteCertificateDownloadReq(void);
 /******************************************************
 description： function code
@@ -69,12 +70,58 @@ description： function code
 void main(void)
 {
 	int i;
+#if 0
 	for(i =0 ;i < 3;i++)
 	{
 		PP_remotDiagnosticStatus();
 	}
+#endif
+	char ver[256]={0};
+	char teststring[33] = {0};
+	uint32_t testval[5] = {105,2000,100,1004,1100};
+	const char conol = '.';
+	for(i=0;i<5;i++)
+	{
+		PP_rmtCfg_ultoa(testval[i],teststring,10);
+		fprintf(stdout,"testval[%d] = %d,teststring = %s\n",i,testval[i],teststring);
+		strcat(ver,(const char*)teststring);
+		strcat(ver,&conol);
+	}
+	fprintf(stdout,"ver = %s\n",ver);
 }
 
+
+/*无符号长整形转字符型*/
+static char *PP_rmtCfg_ultoa(unsigned long value, char *string, int radix)
+{
+	char tmp[33] = {0};
+	char *tp = tmp;
+	int i;
+	char *sp;
+
+	if (radix > 36 || radix <= 1)
+	{
+		return NULL;
+	}
+
+	while (value)
+	{
+		i = value % radix;
+		value = value / radix;
+		if (i < 10)
+		*tp++ = i +'0';
+		else
+		*tp++ = i + 'a' - 10;
+	}
+
+	fprintf(stdout,"tmp = %s\n",tmp);
+	sp = string;
+
+	while (tp > tmp)
+	*sp++ = *(--tp);
+	*sp = 0;
+	return string;
+}
 
 static void PP_remotDiagnosticStatus(void)
 {
