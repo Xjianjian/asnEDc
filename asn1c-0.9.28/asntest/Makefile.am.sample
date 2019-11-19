@@ -28,6 +28,7 @@ ASN_MODULE_SOURCES=	\
 	RvsBasicStatus.c	\
 	BookingResp.c	\
 	HUBookingResp.c	\
+	HUBookingBackResp.c	\
 	VehicleStReqInfo.c	\
 	VehicleStRespInfo.c	\
 	VSgpspos.c	\
@@ -77,6 +78,7 @@ ASN_MODULE_HEADERS=	\
 	RvsBasicStatus.h	\
 	BookingResp.h	\
 	HUBookingResp.h	\
+	HUBookingBackResp.h	\
 	VehicleStReqInfo.h	\
 	VehicleStRespInfo.h	\
 	VSgpspos.h	\
