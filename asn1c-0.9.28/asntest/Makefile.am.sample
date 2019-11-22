@@ -46,7 +46,9 @@ ASN_MODULE_SOURCES=	\
 	LogAcquisitionRespInfo.c	\
 	FaultCodeClearanceReqInfo.c	\
 	FaultCodeClearanceRespInfo.c	\
-	CanBusMessageCollectReqInfo.c
+	CanBusMessageCollectReqInfo.c	\
+	FotaNoticeReqInfo.c	\
+	FotaNoticeRespInfo.c
 
 ASN_MODULE_HEADERS=	\
 	Bodyinfo.h	\
@@ -96,7 +98,9 @@ ASN_MODULE_HEADERS=	\
 	LogAcquisitionRespInfo.h	\
 	FaultCodeClearanceReqInfo.h	\
 	FaultCodeClearanceRespInfo.h	\
-	CanBusMessageCollectReqInfo.h
+	CanBusMessageCollectReqInfo.h	\
+	FotaNoticeReqInfo.h	\
+	FotaNoticeRespInfo.h
 
 ASN_MODULE_HEADERS+=BOOLEAN.h
 ASN_MODULE_SOURCES+=BOOLEAN.c
